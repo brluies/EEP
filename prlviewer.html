@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Text Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text-column {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-y: auto;
+            max-height: 600px; /* Set a max height for scrolling */
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Parallel Text Viewer</h1>
+    </header>
+
+    <div class="container">
+        <div class="text-column" id="text1">
+            <h2>Text 1 Title</h2>
+            <p>This is the content of the first text. Replace with actual content.</p>
+        </div>
+        <div class="text-column" id="text2">
+            <h2>Text 2 Title</h2>
+            <p>This is the content of the second text. Replace with actual content.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
