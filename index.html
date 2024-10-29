@@ -85,6 +85,118 @@
             <h3>by Author 3</h3>
             <p>Aliquam erat volutpat. Nulla facilisi. Vivamus vel quam eget justo scelerisque hendrerit.</p>
         </section>
+           <!-- Timeline Section -->
+    <h2>Historical Timeline</h2>
+    <div class="timeline">
+        <div class="event" onclick="showPopup('event1')">
+            <h3>Event 1 Title</h3>
+            <p>Brief description of Event 1.</p>
+        </div>
+        <div class="event" onclick="showPopup('event2')">
+            <h3>Event 2 Title</h3>
+            <p>Brief description of Event 2.</p>
+        </div>
+        <div class="event" onclick="showPopup('event3')">
+            <h3>Event 3 Title</h3>
+            <p>Brief description of Event 3.</p>
+        </div>
+
+        <div id="event1" class="popup">
+            <span class="close-btn" onclick="closePopup('event1')">&times;</span>
+            <h4>Event 1 Details</h4>
+            <img src="image1.jpg" alt="Event 1 Image">
+            <p>Detailed information about Event 1 goes here.</p>
+        </div>
+
+        <div id="event2" class="popup">
+            <span class="close-btn" onclick="closePopup('event2')">&times;</span>
+            <h4>Event 2 Details</h4>
+            <img src="image2.jpg" alt="Event 2 Image">
+            <p>Detailed information about Event 2 goes here.</p>
+        </div>
+
+        <div id="event3" class="popup">
+            <span class="close-btn" onclick="closePopup('event3')">&times;</span>
+            <h4>Event 3 Details</h4>
+            <img src="image3.jpg" alt="Event 3 Image">
+            <p>Detailed information about Event 3 goes here.</p>
+        </div>
+    </div>
+
+    <!-- Container for displaying XML content -->
+    <section id="xmlContainer"></section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
+</footer>
+
+<style>
+    /* Timeline Styles */
+    .timeline {
+        position: relative;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    .event {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 0;
+        position: relative;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .event:hover {
+        background-color: #f0f0f0;
+    }
+
+    .popup {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .popup img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .close-btn {
+        cursor: pointer;
+        color: red;
+        float: right;
+    }
+</style>
+
+<script>
+    function showPopup(eventId) {
+        document.getElementById(eventId).style.display = 'block';
+    }
+
+    function closePopup(eventId) {
+        document.getElementById(eventId).style.display = 'none';
+    }
+
+    // Close popups if clicked outside
+    window.onclick = function(event) {
+        const popups = document.querySelectorAll('.popup');
+        popups.forEach(popup => {
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+    }
+</script>
 
         <!-- Container for displaying XML content -->
         <section id="xmlContainer"></section>
