@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Educational Resources (OER) in the History of the Book: Towards a New Anthology</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function loadXMLDoc() {
+            fetch('CaxtonGoldenLegend1483.xml')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(data, "text/xml");
+                    displayLegend(xmlDoc);
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        }
+
+        function displayLegend(xml) {
+            const title = xml.getElementsByTagName("title")[0].textContent;
+            const author = xml.getElementsByTagName("author")[0].textContent;
+            const content = xml.getElementsByTagName("content")[0].childNodes;
+            let contentHtml = '';
+            for (let i = 0; i < content.length; i++) {
+                if (content[i].nodeType === Node.ELEMENT_NODE) {
+                    contentHtml += `<p>${content[i].textContent}</p>`;
+                }
+            }
+
+            // Display XML content in the xmlContainer
+            document.getElementById("xmlContainer").innerHTML = `
+                <h2>${title}</h2>
+                <h3>by ${author}</h3>
+                ${contentHtml}
+                <pre>${new XMLSerializer().serializeToString(xml)}</pre> <!-- Display raw XML -->
+            `;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -15,7 +54,7 @@
     <nav>
         <h2>Table of Contents</h2>
         <ul>
-            <li><a href="#CaxtonGoldenLegend1483.xml">Caxton's golden Legend</a></li>
+            <li><a href="#" onclick="loadXMLDoc(); return false;">Caxton's Golden Legend</a></li>
             <li><a href="#work2">Polychronicon</a></li>
             <li><a href="#work3">Chronicles of England</a></li>
         </ul>
@@ -39,6 +78,9 @@
             <h3>by Author 3</h3>
             <p>Aliquam erat volutpat. Nulla facilisi. Vivamus vel quam eget justo scelerisque hendrerit.</p>
         </section>
+
+        <!-- Container for displaying XML content -->
+        <section id="xmlContainer"></section>
     </main>
 
     <footer>
@@ -46,4 +88,3 @@
     </footer>
 </body>
 </html>
-
