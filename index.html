@@ -130,73 +130,79 @@
 <footer>
     <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
 </footer>
+<title>Dynamic Chronological Timeline</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
 
-<style>
-    /* Timeline Styles */
-    .timeline {
-        position: relative;
-        max-width: 600px;
-        margin: auto;
-        padding: 20px 0;
-    }
+        header {
+            text-align: center;
+        }
 
-    .event {
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 10px 0;
-        position: relative;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: 20px auto;
+        }
 
-    .event:hover {
-        background-color: #f0f0f0;
-    }
+        .event {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            position: relative;
+        }
 
-    .popup {
-        display: none;
-        position: absolute;
-        background-color: white;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        width: 200px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-    }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 15px;
+            height: 10px;
+            width: 10px;
+            background: #3498db;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chronological Timeline</h1>
+    </header>
+    <main>
+        <div class="timeline" id="timeline"></div>
+        <button id="addEvent">Add Event</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Timeline Example. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const timeline = document.getElementById('timeline');
+            const addEventButton = document.getElementById('addEvent');
 
-    .popup img {
-        max-width: 100%;
-        border-radius: 5px;
-    }
+            addEventButton.addEventListener('click', function () {
+                const eventDescription = prompt("Enter event description:");
+                const eventDate = prompt("Enter event date:");
 
-    .close-btn {
-        cursor: pointer;
-        color: red;
-        float: right;
-    }
-</style>
-
-<script>
-    function showPopup(eventId) {
-        document.getElementById(eventId).style.display = 'block';
-    }
-
-    function closePopup(eventId) {
-        document.getElementById(eventId).style.display = 'none';
-    }
-
-    // Close popups if clicked outside
-    window.onclick = function(event) {
-        const popups = document.querySelectorAll('.popup');
-        popups.forEach(popup => {
-            if (event.target === popup) {
-                popup.style.display = 'none';
-            }
+                if (eventDescription && eventDate) {
+                    const eventElement = document.createElement('div');
+                    eventElement.classList.add('event');
+                    eventElement.innerHTML = `<strong>${eventDate}</strong><p>${eventDescription}</p>`;
+                    timeline.appendChild(eventElement);
+                } else {
+                    alert("Both fields are required!");
+                }
+            });
         });
-    }
-</script>
+    </script>
 
         <!-- Container for displaying XML content -->
         <section id="xmlContainer"></section>
