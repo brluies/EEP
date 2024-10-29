@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display XML Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function loadXML() {
+            fetch('CaxtonGoldenLegend1483.xml')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(data, "text/xml");
+                    displayXML(xmlDoc);
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        }
+
+        function displayXML(xml) {
+            const title = xml.getElementsByTagName("title")[0].textContent;
+            const author = xml.getElementsByTagName("author")[0].textContent;
+            const content = xml.getElementsByTagName("content")[0].childNodes;
+            let contentHtml = '';
+            for (let i = 0; i < content.length; i++) {
+                if (content[i].nodeType === Node.ELEMENT_NODE) {
+                    contentHtml += `<p>${content[i].textContent}</p>`;
+                }
+            }
+
+            // Display XML content in the xmlContainer
+            document.getElementById("xmlContainer").innerHTML = `
+                <h2>${title}</h2>
+                <h3>by ${author}</h3>
+                ${contentHtml}
+                <pre>${new XMLSerializer().serializeToString(xml)}</pre> <!-- Display raw XML -->
+            `;
+        }
+
+        // Load the XML when the page loads
+        window.onload = loadXML;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Caxton's Golden Legend</h1>
+    </header>
+    <main>
+        <section id="xmlContainer"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
