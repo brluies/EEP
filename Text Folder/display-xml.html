@@ -35,17 +35,15 @@
                 }
             }
 
-            // Display XML content in the xmlContainer
             document.getElementById("xmlContainer").innerHTML = `
                 <h2>${title}</h2>
                 <h3>by ${author}</h3>
                 ${contentHtml}
-                <pre>${new XMLSerializer().serializeToString(xml)}</pre> <!-- Display raw XML -->
+                <pre>${new XMLSerializer().serializeToString(xml)}</pre>
             `;
         }
 
-        // Load the XML when the page loads
-        window.onload = loadXML;
+        window.onload = loadXML; // Load XML when page is opened
     </script>
 </head>
 <body>
