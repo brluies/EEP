@@ -59,10 +59,7 @@
                     const xmlDoc = parser.parseFromString(data, "text/xml");
                     displayTEI(xmlDoc, columnId);
                 })
-                .catch(error => {
-                    console.error('Error loading TEI XML:', error);
-                    document.getElementById(columnId).innerHTML = '<p>Error loading TEI XML file.</p>';
-                });
+    
         }
 
         function displayTEI(xml, columnId) {
@@ -82,7 +79,7 @@
 
         // Load the TEI XML files when the page loads
         window.onload = function() {
-            loadTEI('text1', 'CaxtonGoldenLegend1483.xml'); // URL to first TEI XML file
+            loadTEI('TextOne', 'CaxtonGoldenLegend1483.xml'); // URL to first TEI XML file
             loadTEI('text2', 'SienaGoldenLegende.xml'); // URL to second TEI XML file
         };
     </script>
