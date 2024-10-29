@@ -8,21 +8,30 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
-            $.ajax({
-                url: 'CaxtonGoldenLegend1483.xml',
-                dataType: 'xml',
-                success: function(data) {
-                    let content = '';
+            const xmlFiles = ['CaxtonGoldenLegend1483.xml', 'SienaGoldenLegende.xml']; // Add more XML files here
+            let allContent = '';
+
+            function loadXmlFile(file) {
+                return $.ajax({
+                    url: file,
+                    dataType: 'xml',
+                }).then(data => {
                     const title = $(data).find('title').text();
                     const author = $(data).find('author').text();
                     const bodyContent = $(data).find('body').html(); // Extract inner HTML of <body>
+                    return `<h2>${title}</h2><h3>by ${author}</h3><div>${bodyContent}</div>`;
+                });
+            }
 
-                    content += `<h2>${title}</h2><h3>by ${author}</h3><div>${bodyContent}</div>`;
-                    $('#xmlContainer').html(content);
-                },
-                error: function() {
-                    $('#xmlContainer').html('<p>Error loading TEI XML file.</p>');
-                }
+            const xmlPromises = xmlFiles.map(file => loadXmlFile(file));
+
+            $.when(...xmlPromises).done(function(...responses) {
+                responses.forEach(response => {
+                    allContent += response;
+                });
+                $('#xmlContainer').html(allContent);
+            }).fail(function() {
+                $('#xmlContainer').html('<p>Error loading one or more TEI XML files.</p>');
             });
         });
     </script>
