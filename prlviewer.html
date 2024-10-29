@@ -37,16 +37,54 @@
     <div class="container">
         <div class="text-column" id="text1">
             <h2>Text 1 Title</h2>
-            <p>This is the content of the first text. Replace with actual content.</p>
         </div>
         <div class="text-column" id="text2">
             <h2>Text 2 Title</h2>
-            <p>This is the content of the second text. Replace with actual content.</p>
         </div>
     </div>
 
     <footer>
         <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
     </footer>
+
+    <script>
+        function loadTEI(columnId, teiUrl) {
+            fetch(teiUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.text();
+                })
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(data, "text/xml");
+                    displayTEI(xmlDoc, columnId);
+                })
+                .catch(error => {
+                    console.error('Error loading TEI XML:', error);
+                    document.getElementById(columnId).innerHTML = '<p>Error loading TEI XML file.</p>';
+                });
+        }
+
+        function displayTEI(xml, columnId) {
+            const title = xml.getElementsByTagName("title")[0]?.textContent || "Untitled";
+            const author = xml.getElementsByTagName("author")[0]?.textContent || "Unknown Author";
+            const content = xml.getElementsByTagName("content")[0]?.childNodes;
+
+            let contentHtml = `<h3>${title}</h3><h4>by ${author}</h4>`;
+            for (let node of content) {
+                if (node.nodeType === Node.ELEMENT_NODE) {
+                    contentHtml += `<p>${node.textContent}</p>`;
+                }
+            }
+
+            document.getElementById(columnId).innerHTML += contentHtml;
+        }
+
+        // Load the TEI XML files when the page loads
+        window.onload = function() {
+            loadTEI('text1', 'CaxtonGoldenLegend1483.xml'); // URL to first TEI XML file
+            loadTEI('text2', 'AnotherText.xml'); // URL to second TEI XML file
+        };
+    </script>
 </body>
 </html>
