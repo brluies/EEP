@@ -25,14 +25,18 @@
         }
 
         function displayLegend(xml) {
-            const title = xml.getElementsByTagName("title")[0].textContent;
-            const author = xml.getElementsByTagName("author")[0].textContent;
-            const content = xml.getElementsByTagName("content")[0].childNodes;
+            const title = xml.getElementsByTagName("title")[0]?.textContent || "No title found";
+            const author = xml.getElementsByTagName("author")[0]?.textContent || "Unknown Author";
+            const bodyContent = xml.getElementsByTagName("body")[0];
+
             let contentHtml = '';
-            for (let i = 0; i < content.length; i++) {
-                if (content[i].nodeType === Node.ELEMENT_NODE) {
-                    contentHtml += `<p>${content[i].textContent}</p>`;
+            if (bodyContent) {
+                const paragraphs = bodyContent.getElementsByTagName("p");
+                for (let i = 0; i < paragraphs.length; i++) {
+                    contentHtml += `<p>${paragraphs[i].textContent}</p>`;
                 }
+            } else {
+                contentHtml = "<p>No content found.</p>";
             }
 
             // Display XML content in the xmlContainer
@@ -40,9 +44,11 @@
                 <h2>${title}</h2>
                 <h3>by ${author}</h3>
                 ${contentHtml}
-                <pre>${new XMLSerializer().serializeToString(xml)}</pre> <!-- Display raw XML -->
             `;
         }
+
+        // Load the XML document when the page loads
+        window.onload = loadXMLDoc;
     </script>
 </head>
 <body>
@@ -51,14 +57,14 @@
         <p>B L</p>
     </header>
     
-  <nav>
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="display-tei.html">Caxton's Golden Legend</a></li>
-        <li><a href="#work2">Polychronicon</a></li>
-        <li><a href="#work3">Chronicles of England</a></li>
-    </ul>
-</nav>
+    <nav>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="display-tei.html">Caxton's Golden Legend</a></li>
+            <li><a href="#work2">Polychronicon</a></li>
+            <li><a href="#work3">Chronicles of England</a></li>
+        </ul>
+    </nav>
 
     <main>
         <section id="work1">
@@ -87,4 +93,5 @@
         <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
     </footer>
 </body>
+</html>
 </html>
