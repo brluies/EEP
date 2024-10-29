@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display TEI XML Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const xmlFiles = ['SienaGoldenLegende.xml']; // Add more XML files here
+            let allContent = '';
+
+            function loadXmlFile(file) {
+                return $.ajax({
+                    url: file,
+                    dataType: 'xml',
+                }).then(data => {
+                    const title = $(data).find('title').text();
+                    const author = $(data).find('author').text();
+                    const bodyContent = $(data).find('body').html(); // Extract inner HTML of <body>
+                    return `<h2>${title}</h2><h3>by ${author}</h3><div>${bodyContent}</div>`;
+                });
+            }
+
+            const xmlPromises = xmlFiles.map(file => loadXmlFile(file));
+
+            $.when(...xmlPromises).done(function(...responses) {
+                responses.forEach(response => {
+                    allContent += response;
+                });
+                $('#xmlContainer').html(allContent);
+            }).fail(function() {
+                $('#xmlContainer').html('<p>Error loading one or more TEI XML files.</p>');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Caxton's Golden Legend Siena</h1>
+    </header>
+    <main>
+        <section id="xmlContainer"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Literary Anthology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
