@@ -3,47 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display XML Content</title>
+    <title>Display TEI XML Content</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        function loadXML() {
-            fetch('CaxtonGoldenLegend1483.xml')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    const parser = new DOMParser();
-                    const xmlDoc = parser.parseFromString(data, "text/xml");
-                    displayXML(xmlDoc);
-                })
-                .catch(error => {
-                    console.error('There was a problem with the fetch operation:', error);
-                });
-        }
+        $(document).ready(function() {
+            $.ajax({
+                url: 'CaxtonGoldenLegend1483.xml',
+                dataType: 'xml',
+                success: function(data) {
+                    let content = '';
+                    const title = $(data).find('title').text();
+                    const author = $(data).find('author').text();
+                    const bodyContent = $(data).find('body').html(); // Extract inner HTML of <body>
 
-        function displayXML(xml) {
-            const title = xml.getElementsByTagName("title")[0].textContent;
-            const author = xml.getElementsByTagName("author")[0].textContent;
-            const content = xml.getElementsByTagName("content")[0].childNodes;
-            let contentHtml = '';
-            for (let i = 0; i < content.length; i++) {
-                if (content[i].nodeType === Node.ELEMENT_NODE) {
-                    contentHtml += `<p>${content[i].textContent}</p>`;
+                    content += `<h2>${title}</h2><h3>by ${author}</h3><div>${bodyContent}</div>`;
+                    $('#xmlContainer').html(content);
+                },
+                error: function() {
+                    $('#xmlContainer').html('<p>Error loading TEI XML file.</p>');
                 }
-            }
-
-            document.getElementById("xmlContainer").innerHTML = `
-                <h2>${title}</h2>
-                <h3>by ${author}</h3>
-                ${contentHtml}
-                <pre>${new XMLSerializer().serializeToString(xml)}</pre>
-            `;
-        }
-
-        window.onload = loadXML; // Load XML when page is opened
+            });
+        });
     </script>
 </head>
 <body>
