@@ -1,0 +1,2594 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inferno 1 &#8211; Digital Dante</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Digital Dante offers original research and ideas on Dante: on his thought and work and on various aspects of his reception.">
+  <link rel="icon" sizes="32x32" type="image/png" href="https://digitaldante.columbia.edu/wp-content/themes/dante-core/assets/graphics/favicon.png">
+
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJLRNNMRPE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RJLRNNMRPE');
+    </script>
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://columbia-libraries.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '24']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='//cdn.matomo.cloud/columbia-libraries.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+	
+  <script>
+    (function(d) {
+        loadFonts = 1;
+        if(window.sessionStorage){
+            if(sessionStorage.getItem('useTypekit')==='false'){
+                loadFonts = 0;
+            }
+        }
+
+        if (loadFonts == 1) {
+                var config = {
+                    kitId: 'mln4dxl',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";if(window.sessionStorage){sessionStorage.setItem("useTypekit","false")}},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s);
+            }
+        }
+
+    )(document);
+  </script>
+
+  <meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://digitaldante.columbia.edu/wp-includes/css/dist/block-library/style.min.css?ver=11fd3e5d81c0f6aa69143b1b258f6afe' type='text/css' media='all' />
+<style id='pdfemb-pdf-embedder-viewer-style-inline-css' type='text/css'>
+.wp-block-pdfemb-pdf-embedder-viewer{max-width:none}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='main-stylesheet-css' href='https://digitaldante.columbia.edu/wp-content/themes/dante-core/assets/css/style.css?ver=1.0.8' type='text/css' media='screen,print' />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" id="jquery-js"></script>
+<link rel="canonical" href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-1/" />
+
+</head>
+
+<body class="dante-template-default single single-dante postid-1204">
+
+
+<header class="banner">
+	<a class="site-title" href="https://digitaldante.columbia.edu/">
+		<h1>Digital Dante</h1>
+	  <svg xmlns="https://www.w3.org/2000/svg" width="407" height="183" viewBox="0 0 406.6 183.4"><title>Digital Dante</title><path d="M1.6 36.9c0-1.1 1.8-3.1 5.4-6.2 2.2-1.8 4.6-3.7 7-5.6 1.1-1 2.3-2.1 3.7-3.3 1.4-1.2 2.6-1.9 3.8-1.9.3 0 .7.1 1 .3 2.8.8 5.6 1.5 8.5 2.3 2.9.8 5.6 1.2 8.2 1.2h.7l25.3-3.8c5.3-.8 8.9-1.1 10.7-1.1 8.4 0 14.8 2.1 19.3 6.2 3.4 3.1 5.5 5.1 6.4 6 2.1 2.6 3.2 5.1 3.2 7.7 0 .5.1 1 .3 1.4l-.2 66.6c0 1.4 2.1 3.3 6.4 5.7l.3.8c.1.4-.1.8-.7 1.1-8.1 4.3-20.2 11-36 20.1-4.1 3.2-10.7 7.6-19.7 13h-.7l-.9-.3c-7-11.7-15.8-17.5-26.3-17.5-4 0-6.8.4-8.4 1.3-2.4 1.4-3.7 3.8-3.7 7.3 0 4.1 2.6 6.2 7.7 6.2 1.8 0 2.8-.4 3.1-1.1-2.7-.9-4-2.8-4-5.7 0-2.9 1.6-4.3 4.7-4.3 1.3 0 2.4.6 3.4 1.8 1 1.2 1.5 2.5 1.5 3.8 0 2.3-.9 4.4-2.6 6.3s-3.8 2.8-6.2 2.8c-7.3 0-10.9-4.4-10.9-13.2 0-3.7 2.3-7.6 6.9-11.6 4.3-3.7 8.2-5.5 11.7-5.5h.8l.5-.5c.3-2.3.5-8 .5-16.9V58.9c0-2.2-2.4-3.3-7.2-3.3l-.9-1.2c.1-.3 4.7-2.2 13.7-5.7 3.8-1.6 7.1-4.2 10-8l-.5-.3c-1.4 0-3.5.1-6.3.3-2.8.2-4.9.3-6.3.3-3.9 0-7.8-.5-11.7-1.6-1-.2-3.3-1.2-7-2.9-2.9-1.4-5.3-2-7.3-2-1.1 0-3 1.2-5.9 3.5h-.4c-.5 0-.8-.4-.9-1.1zm5.6 56.2c7.3-4.7 11-8.8 11-12.3-.7-.8-1.6-1.8-2.9-3.2L8 72.1c.1-.2 2.3-1.9 6.5-5 3.9-2.9 5.9-6.3 5.9-10.4 0-5.2-1.4-7.9-4.3-7.9-1.6 0-2.4.4-2.4 1.2 0 .2.2.7.7 1.4.5.7.7 1.5.7 2.3 0 2.3-1.3 3.5-3.8 3.5-1 0-1.8-.5-2.6-1.6-.7-1.1-1.1-2.2-1.1-3.3 0-2 1.1-3.6 3.2-4.6 1.9-1.1 3.9-1.6 6-1.6 1.6 0 3.1 1.2 4.5 3.7 1.4 2.4 2.2 4.5 2.2 6.1 0 1-.3 2.4-.9 4.4-.6 1.9-.9 3.3-.9 4.2 0 2.2 1.6 4.3 4.9 6.2 3.3 1.9 4.9 2.9 4.9 3.1 0-.1-1.9 1.2-5.7 3.8-3.8 2.7-5.7 5.2-5.7 7.7l.8 1.5c2 3.1 4.7 5.4 8 6.8 1.7.7 2.5 1.2 2.5 1.7s-1.4 1.5-4.2 2.9c-3.4 1.8-6 3.5-7.7 5.1-2.8 2.9-4.2 6.4-4.2 10.7 0 1.4 1.5 2 4.4 2 .7 0 1-.2 1-.5s-.1-.8-.3-1.4c-.2-.6-.3-1.1-.3-1.4 0-2.2 1.2-3.3 3.7-3.3 2.6 0 3.8 1.2 3.8 3.7 0 1.6-.7 3-2.2 4.2-1.4 1.2-2.9 1.8-4.5 1.8-5.4 0-8.1-3.2-8.1-9.7 0-.8.4-1.9 1.1-3.3.7-1.5 1.1-2.6 1.1-3.3 0-2.6-1.3-4.7-3.8-6.5-2.8-2.1-4-3.1-4-3.2zm29.1 23.6l2.2.5c5.8 2.1 11.7 4.2 17.7 6.4.7 0 1-.4 1-1.1v-4.6c0-1.1-.1-2.8-.2-5.2-.2-2.4-.2-4.2-.2-5.3l-.5-.3c-1 0-4.2 1.2-9.5 3.5-5.9 2.5-9.4 4.6-10.5 6.1zm14.5-51c0 23.4.1 35.4.3 36.1.5 1.6 2.4 2.4 5.6 2.4.2-.5.2-6.2.2-17.1 0-10.9-.1-26.9-.2-48.1h-1.3c-2.9 0-4.3.3-4.3.8-.2 10.9-.3 19.5-.3 25.9zm9.1 59.4c0 .9.9 1.3 2.7 1.4h.5c.4-1 .7-20.9.7-59.9V39.7c0-1.4-.5-2-1.5-2-1.6 0-2.4.6-2.4 1.7v85.7zm6.4 2.6c0 1.1 1.7 1.7 5.2 1.7 3.9 0 7.4-1.2 10.4-3.5s4.5-5.4 4.5-9.2v-73c-2.6-5.1-6.5-7.7-11.9-7.7-4.8 0-7.5.4-8.1 1.3v3.5c0 2.8.1 4.4.3 4.9h.3c2.7-1.7 5.1-2.5 7.2-2.5s4 .7 5.5 2.2c1.6 1.4 2.4 3.2 2.4 5.2 0 4.5-2 6.7-5.9 6.7-2.9 0-4.3-1.1-4.3-3.3 0-2.6.9-3.8 2.6-3.8 1.9 0 2.7 1.1 2.5 3.3h.3c1.5 0 2.2-1.2 2.2-3.7 0-2.7-1.7-4-5.1-4-2.2 0-4.1 1.1-5.7 3.4-1.6 2.3-2.4 4.6-2.4 7.1v26.5c0 1.6.1 4.1.3 7.5l.3.2c3-1.8 5.9-4.5 8.9-8.1 3.4-4.1 5.1-7.7 5.1-10.7 0-4.5-1.5-6.7-4.6-6.7-.8 0-1.6.4-2.4 1.2-.8.8-1.3 1.6-1.3 2.3l.3.3c2.9.2 4.3 1.3 4.3 3.2 0 2.4-1.2 3.7-3.5 3.7-1.2 0-2.3-.6-3.3-1.8-.9-1.2-1.4-2.3-1.4-3.5 0-5.4 2.2-8.2 6.7-8.2 5.2 0 7.8 3.3 7.8 9.9 0 4.1-1.5 8-4.5 11.7-3.2 3.1-6.4 6.2-9.5 9.4l.3.3c8.3.4 12.4 4.5 12.4 12.2 0 6.1-2.3 9.1-6.8 9.1h-.1c-3.9 0-5.9-2.2-5.9-6.5 0-3.1 1.2-4.6 3.5-4.6 2.2 0 3.3 1.1 3.3 3.2 0 1.7-1.1 2.6-3.3 2.9v.3c0 .9.6 1.3 1.9 1.3 3.2 0 4.8-2.2 4.8-6.7 0-5.6-4.1-8.5-12.4-8.5-.8.4-1.1.8-1.1 1.1v30.4zm2.2 16.5c0-.3.5-1 1.6-2.2 1.1-1.1 1.8-1.8 2.1-2l34.9-17.8c.4-.2.9-.4 1.3-.4 1.1 0 1.7.5 1.7 1.4 0 .9-.9 1.7-2.6 2.6-1.7.8-2.7 1.4-2.9 1.6 4.5 2.2 6.7 5.1 6.7 8.5 0 2.8-.8 5.1-2.5 7-1.7 1.9-3.9 2.9-6.7 2.9-1.9 0-3.7-.6-5.3-1.8-1.7-1.2-2.5-2.7-2.5-4.5 0-1.4.5-2.5 1.4-3.4 1-.9 2-1.4 3.2-1.4 2.3 0 3.5 1.3 3.5 4 0 .9-.4 2-1.3 3.3.1.2.3.3.7.3 4.1 0 6.2-2.4 6.2-7.3 0-3.6-2.2-5.5-6.5-5.5h-.2c-1 0-4.4 1.3-10.2 4-.7.5-1.5 1.5-2.7 2.9-.4 1.3-.9 2.4-1.3 3.5-.7 1.7-1.3 2.5-1.9 2.4-.2 0-.8-.2-1.6-.7-.9-.4-1.8-.7-2.9-.7-2.4 0-4.8.7-6.9 2.2-2.2 1.4-3.5 2.2-3.9 2.2-1-.1-1.4-.4-1.4-1.1zM114.9 100.9l.9-1.5h1.3c1.1 0 2.8.2 5.2.5 2.4.3 4.1.5 5.2.5 4.5 0 10.3-1.6 17.4-4.8 3.8-1.7 7.7-3.9 11.7-6.7 5.7-3.8 8.5-6.8 8.6-9-3.4-3.4-7.7-6.3-12.9-8.6s-10.2-3.4-15-3.4c-1.6 0-2.8.3-3.7.8-1 1.6-1.5 3.4-1.6 5.4 0 4.3 1.8 6.5 5.3 6.5.9 0 2.2-.3 3.9-.9 1.8-.6 3.1-.9 3.9-.9.9 0 1.3.4 1.4 1.1 0 .7-2.4 2.2-7.1 4.6-1.6 1.9-3.2 3.7-4.7 5.5-2.7 3-4.5 4.5-5.4 4.6-.8 0-1.3-.3-1.6-.9v-.8c0-1.4-1.2-3-3.7-5-2.4-2-3.7-4.6-3.7-7.9 0-4.5 2.7-8.7 8-12.6l16-12.1c.1-.1 1.1-1.2 3-3.3 1.2-1.3 2.4-2 3.5-2h.2l25.3 14c.4.2 3.9 1.3 10.5 3.2.8.2 1.1.7 1.1 1.5 0 1.1-.9 2.2-2.6 3.4-1.8 1.2-2.6 2.1-2.6 2.6v18c0 21.1.2 32.9.5 35.4.2 1.4 1.6 2.1 4.2 2.2l-1-.1c0-.1 2.1-.1 6.4-.1 1.2 0 1.8.4 1.8 1.1 0 .4-.1.7-.3.9-4.3 3.7-7 5.9-7.8 6.6-2.7 2.5-5 5.1-7 7.6-.8 1.3-2.1 3.2-4 5.7-1-1.8-2.4-3.9-4.2-6.5-5.7-7-10.8-10.6-15.4-10.6-3.8 0-7.5 1.3-10.9 3.8-3.5 2.5-6 5.6-7.4 9.1-.3 1-.6 2-.8 3-.4 1.3-1 1.9-1.7 1.9h-.1c-.3 0-.8-.2-1.3-.5-2.4-4.6-4.7-7.9-6.8-9.8-1.6-1.5-3.8-3.3-6.8-5.6-.9-.2-1.7-.5-2.6-.9-.9-.4-1.3-1-1.3-1.8 0-.7.3-1.2.9-1.6.6-.4 1.2-.7 1.9-.9 2.7-1.8 4.5-4.2 5.2-7.2.3-1.7.5-4.7.5-9.2 0-4.3-1.5-8-4.6-11.1-2-.9-3.6-2-5.2-3.2zm27.1 23.8c1.2 2.6 2.3 4.1 3.3 4.8.9.6 2.7.9 5.2.9 2.8 0 5.8-.7 9.1-2.2 4.1-1.9 6.2-4 6.2-6.4v-6.3c0-3.4-.1-8-.2-13.9-.1-7-.2-11.6-.2-13.9l-.5-.3c-4.9 3.1-9.8 6.2-14.8 9.3-5.5 3.8-8.2 8.2-8.2 13v15zM197 70.9c0-.4.1-.8.4-1.1 15.3-13.6 23.2-20.3 23.7-20.3h1.8c3 3.3 5.9 6.7 8.9 10.1 4.4 4.9 7.8 7.4 10.2 7.4 4.1 0 9.6-2.8 16.3-8.5 1.3-1.8 3.4-4.4 6.1-7.7.5-.7 1.1-1 1.8-1 .5.2 1.3 1.2 2.3 2.9 1.3 2 2.1 3.2 2.2 3.4 2.6 3.1 5.4 5.7 8.3 7.6 1 .4 2 1 3.1 1.6 1.1.6 1.7 1.5 1.7 2.6l-.5.8c-4 2.3-6.5 4.4-7.5 6.2-1 1.8-1.5 5.2-1.5 10.1 0 4.9.1 11.9.2 21 .1 10.3.2 17.3.2 21 0 2.7 2.1 4 6.4 4 3.1-2.1 5-3.2 5.5-3.2.9 0 1.3.6 1.3 1.7 0 .8-.1 1.3-.3 1.5l-9 8.3c-1.8 1.3-4.3 3.5-7.6 6.7-.6 1.1-1.9 2.6-3.6 4.6h-.7c-1.1 0-2-.5-2.8-1.4-.8-1-1.5-1.9-2.1-2.8-3.8-4.3-8-8.3-12.8-11.8-.2-.2-.3-.5-.3-1s1.4-1.9 4.3-4.4c2.9-2.5 4.3-5.6 4.3-9.1 0-22.1-.1-34.8-.3-38.2-.1-2.2-2.2-4.6-6.3-7.3-4.1-2.6-7.3-3.9-9.7-3.9-1.2 0-3.2.7-5.8 2.2-2.7 1.4-4 2.7-4.1 3.7-.1 1-.2 6.1-.2 15.2v32c0 1.6 1.6 3.2 4.7 4.9 3.1 1.7 4.7 3.1 4.7 4.1 0 .2-.2.5-.6.8-1.5.9-3.9 2.6-7 5.3l-6.8 8.7c-.4.5-1 1.3-1.5 2.2s-1.1 1.5-1.7 1.6c-.4-.1-1.8-1.3-4-3.5s-3.4-3.6-3.5-4c-2.1-1.7-5.4-4.2-9.8-7.7-.5-.4-.8-1-.9-1.7 0-.4 1.4-2.3 4.2-5.7 2.8-3.3 4.4-6.6 4.8-9.8.2-1.7.3-6.7.3-15.1 0-13.9-.1-24.3-.3-31.4-.1-3.1-1.2-4.6-3.3-4.6-3.6 0-7.1 1.6-10.7 4.8h-.3c-1.6 0-2.2-.6-2.2-1.8zM290.9 67.4v-.2c0-1.5.5-2.5 1.4-3L317 49.3c3.8-2.2 7.1-5.2 9.9-8.8 3.2-4.2 4.8-8.1 4.8-11.9 0-4.5-1.9-6.7-5.7-6.7 0 .7.2 1.5.7 2.6.5 1.1.7 2 .7 2.6 0 1.7-.7 3.1-2.2 4.3-1.4 1.2-3 1.8-4.7 1.8-1.8 0-3.2-.9-4.3-2.7-.9-1.5-1.3-3.1-1.4-5 0-4.5 3.4-6.7 10.3-6.7 1 .1 2.2.4 3.8.8 1.4.8 2.7 2.1 4 4.2 1.3 2 2 3.7 2 5.2 0 4.4-.3 7.2-.8 8.4-1.1 2.5-4.2 6.2-9.4 11.1-3.8 3.7-5.7 8-5.7 12.9 0 .9.6 1.4 1.8 1.4 7 0 11.6-.8 14-2.5v-1.8c-.1-2.7.6-4.1 2.1-4.1.6 0 1 .2 1 .5v14.3c0 17.3-.1 26.7-.3 28.2-.1.8-.5 1.2-1.1 1.2-.9 0-1.4-1-1.7-3-.1-.8-.2-1.7-.2-2.7 0-1 .1-2.2.2-3.6.1-3.4.2-5 .2-4.5 0-.9-1.3-4.8-4-11.8-1.7-4.2-5-6.3-10-6.3h-.2l-1.7.2-.4.2-.2 55.7c0 1.4 1.4 3 4.2 4.9 2.8 1.9 4.9 2.9 6.3 2.9l.9-.2c2.7-3.1 5.5-4.6 8.6-4.6.5.3.8.8.8 1.5 0 .5-3.6 4.5-10.7 11.8-3.6 3.7-7.2 7.4-10.9 11.2l-.8.3c-.3 0-.6-.3-.8-1-.2-.7-.4-1.1-.5-1.2-2.3-2.2-5.9-5.4-10.8-9.4-3.2-2.2-6.9-4.2-11-5.8-.9-.4-1.3-.9-1.3-1.5 0-.5 1.4-2 4.2-4.3s4.2-4.2 4.2-5.5v-54l-.3-.2h-4.3c-1.9.1-3.3.2-4.2.2h-1l-.2-.5zM342.6 130.7c0-.4.2-.8.6-1.1 5-1.6 8.3-4.8 10.1-9.7v-18.3c0-2.1-.1-5.3-.2-9.6s-.2-7.5-.2-9.6c0-3.3-.7-5.4-2.1-6.2l-4.3-2.1h-.9c-.5.1-1.1 0-1.6-.3s-.8-.7-.8-1.3l.7-1c5.6-1.1 16.4-6.1 32.3-15.2.1 0 1.8-1.3 5.2-3.9 2.6-1.8 4.3-2.8 5.2-2.8h.1c.9 0 1.7.7 2.4 2l15.3 32.8c.4.3.7.9.7 1.6 0 .1-.1.3-.2.5-.4.5-1 1.1-1.6 1.7l-22 13.5c-2.7 1.3-6.3 3.6-10.9 7 0 2.4.1 3.8.2 4.2l-.2.2v9c0 .9 2.5 2.9 7.5 6 5 3.2 8.2 4.7 9.5 4.7 1.1 0 3.4-1.6 6.9-4.7 3.5-3.1 5.8-4.7 6.9-4.7 1.3 0 1.9.5 1.9 1.5 0 .5-.2 1-.7 1.4-6 5-14.9 12.9-26.6 23.6-.7.2-1 .4-1.1.4-.5 0-1.5-.6-2.9-1.9-.9-.8-1.8-1.5-2.7-2.4l-10.4-7.3c-.7-.4-3.7-1.8-9.2-4-4.5-1.9-6.9-3.3-6.9-4zm26.6-64.1c0 17.6.4 29.7 1.1 36.3h.6c3.3-1.8 6.6-3.6 9.8-5.4 5.2-3 7.9-5 7.9-6.1L375.7 63c-.2-.4-.7-.7-1.3-.7-3.5.1-5.2 1.6-5.2 4.3zM150.1 25.1c0 3.9-1.3 7.1-4 9.5-2.6 2.4-6.2 3.6-10.7 3.6-.6 0-1.7 0-3.4-.1-1.8-.1-2.9-.1-3.5-.1-2.4 0-4.7.1-6.9.2-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.1-.1 1.9-.3 2.4-.5.6-.2 1-.5 1.2-.9.2-.4.3-1 .3-1.9v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9s-1.4-.4-2.5-.5c-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5 1.5.1 3.8.2 6.9.2.6 0 1.8 0 3.5-.1 1.7 0 2.9-.1 3.4-.1 4.4 0 7.9 1.3 10.6 3.8 2.9 2.5 4.2 5.8 4.2 9.7zm-4.2 0c0-3.5-1-6.4-3-8.7-2-2.3-4.5-3.5-7.5-3.5h-.1l-3.6.1c-1.5.1-2.3.8-2.3 2.2v19.5c0 1.5.8 2.2 2.3 2.2l3.6.1c3 0 5.5-1.1 7.5-3.4s3.1-5.1 3.1-8.5zM166.6 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.9-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9V34c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.3-.1.4.1.4.4zM199.9 26.5c0 .3-.1.5-.3.5-1.5.2-2.6.5-3.1.9-.6.4-.8 1.2-.8 2.4v2.3c0 2 .1 3.3.4 4.1-1.7.7-3.5 1.2-5.5 1.7-2 .4-3.7.6-5.2.6-2.9 0-5.5-.6-7.7-1.7-2.2-1.2-3.9-2.8-5.1-4.9-1.2-2.1-1.8-4.5-1.8-7.1 0-2.6.7-5 2-7.2s3.2-3.9 5.5-5.1c2.3-1.2 5-1.8 8-1.8 1.2 0 2.7.2 4.6.6 1.7.4 3 .5 3.9.5.2 1.8.5 4 .9 6.5 0 .2-.2.3-.6.3-.3 0-.4-.1-.5-.3-1.1-4.3-4.1-6.4-9-6.4-3 0-5.5 1.2-7.6 3.7-2 2.5-3.1 5.5-3.1 9.1 0 3.5 1 6.5 3 8.9 2 2.5 4.5 3.7 7.4 3.7 4.3 0 6.4-1.1 6.4-3.2v-5.1c0-.7-.3-1.2-1-1.5s-2.3-.6-4.9-.8c-.2 0-.3-.2-.3-.6 0-.4.1-.5.3-.5.9 0 2.1 0 3.8.1 1.6.1 2.8.1 3.6.1.8 0 1.8 0 3.1-.1 1.4-.1 2.5-.1 3.3-.1.2-.1.3 0 .3.4zM215 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.9-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9V34c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.3-.1.4.1.4.4zM244.6 17.9c0 .2-.2.4-.7.4-.2 0-.3-.1-.4-.3-.6-1.8-1.3-3.1-2.4-3.8s-2.5-1.1-4.5-1.1h-1.8c-.6 0-1.1.1-1.3.3s-.3.6-.3 1.2v19.5c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.2 0 .3.2.3.5 0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.8-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9s.8-1.2.8-2.4V14.5c0-.6-.1-.9-.3-1.2s-.7-.3-1.3-.3h-1.5c-1.8 0-3.4.5-4.9 1.4-1.5.9-2.4 2.1-2.9 3.6-.1.2-.2.3-.4.3-.4 0-.7-.1-.7-.4.7-1.9 1.4-4.1 2-6.6 1.7.4 5.7.5 11.9.5 6.4 0 10.5-.2 12.2-.5.3 1.6.7 3.8 1.3 6.6zM270.6 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3-.1-1-.1-1.8-.1-2.5-.1-.8 0-1.7 0-2.9.1s-2.3.1-3.1.1c-.2 0-.3-.2-.3-.5 0-.4.1-.5.2-.5 1.1-.1 2-.2 2.5-.5.5-.2.8-.6.8-1.2 0-.3-.1-.9-.4-1.6l-2.2-6.4h-7.9l-2.2 6c-.3.8-.4 1.4-.4 1.9 0 1.1 1 1.8 3.1 1.9.2 0 .2.2.2.5 0 .4-.1.5-.3.5-.8 0-1.6 0-2.6-.1-.9-.1-1.7-.1-2.4-.1-.5 0-1.2 0-2.1.1-.9.1-1.6.1-2.2.1-.2 0-.3-.2-.3-.5 0-.4.1-.5.4-.6 1.1-.1 1.9-.4 2.5-.9.6-.5 1.3-1.5 1.9-3l9-22.1c.1-.2.3-.3.5-.3.3 0 .5.1.6.3l7.9 22.1c.4 1.2 1.1 2.2 1.8 2.7.8.6 1.8 1 3.1 1.1.5.1.6.3.6.6zM259 26.3l-3.4-9.8-3.6 9.8h7zM294.3 31.2c-.6 2.3-1.1 4.6-1.4 7.1-4.9-.2-8.4-.2-10.5-.2-2 0-5.5.1-10.3.2-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4V15.9c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9v18.7c0 1.5.7 2.3 2.2 2.3h3.8c1.6 0 2.9-.4 4-1.3 1.1-.8 2.2-2.4 3.2-4.7.1-.1.2-.2.4-.2s.3.1.5.2c0 .1.1.2.1.3z"/></svg>
+	</a>
+	<nav class="main-menu">
+		<ul>
+			<li><a href="https://digitaldante.columbia.edu/dante/divine-comedy/">Divine Comedy</a></li>
+      <li><a href="https://digitaldante.columbia.edu/the-dante-course/">Dante Course</a></li>
+			<li><a href="https://digitaldante.columbia.edu/digital-projects/intertexual-dante/">Intertextual Dante</a></li>
+			<li><a href="https://digitaldante.columbia.edu/image/">Image</a></li>
+			<li><a href="https://digitaldante.columbia.edu/sound/">Sound</a></li>
+			<li><a href="https://digitaldante.columbia.edu/history/">History</a></li>
+      <li><a href="https://digitaldante.columbia.edu/text/">Text</a></li>
+			<li><a href="https://digitaldante.columbia.edu/about-us/">About</a></li>
+      <li><a href="https://digitaldante.columbia.edu/terms/">Submit</a></li>
+      <li><a href="https://digitaldante.columbia.edu/search/"><svg class="search" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 100 125"><title>Search</title><path style="text-indent:0;text-transform:none;block-progression:tb" d="M41.002 8.002c-18.166 0-33 14.834-33 33s14.834 33 33 33c7.283 0 14.03-2.38 19.5-6.406l22.97 22.937c1.95 1.953 5.11 1.953 7.06 0 1.954-1.952 1.954-5.11 0-7.062L67.597 60.504c4.027-5.47 6.406-12.217 6.406-19.5 0-18.166-14.834-33-33-33zm0 10c12.762 0 23 10.24 23 23 0 12.762-10.238 23-23 23-12.76 0-23-10.238-23-23 0-12.76 10.24-23 23-23z" overflow="visible" color="#fff"/></svg>
+</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<main class="commento">
+      <!-- canto tagline -->
+
+<div class="tagline">
+  <p>
+    The Divine Comedy <small>by</small> Dante Alighieri &middot; Digital Dante Edition <small>with</small> <a href="https://digitaldante.columbia.edu/criticism-context/commento-baroliniano/">Commento Baroliniano</a> &middot; MMXIV-MMXX  &middot; <span class="crown">&nbsp;</span> Columbia University
+  </p>
+</div>
+
+<!-- canto cover image -->
+
+<div class="cover-image" style="background-image: url(https://digitaldante.columbia.edu/wp-content/uploads/2014/11/1401630012.jpg); background-position: 0 -1250px">
+  <!-- canto navigation -->
+
+  <nav class="canto-nav">
+
+  	<div class="canto-title">
+  		Inferno 1  	</div>
+  	<ul class="canto-nav">
+  		<li class="left"></li><li class="title"><a href="#" class="expander" title="reveal Canti Index">Cantos</a></li><li class="right"><a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-2/" rel="next">&rarr;</a></li>
+  	</ul>
+  	<div class="content">
+  		<!-- inferno index -->
+
+<div class="canti-index-row">
+	<h3>Inferno:</h3>
+	<ul>
+					<li class="" id="canto-1204">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-1/" title="Inferno 1">
+					1				</a>
+			</li>
+					<li class="" id="canto-1206">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-2/" title="Inferno 2">
+					2				</a>
+			</li>
+					<li class="" id="canto-1208">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-3/" title="Inferno 3">
+					3				</a>
+			</li>
+					<li class="" id="canto-1210">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-4/" title="Inferno 4">
+					4				</a>
+			</li>
+					<li class="" id="canto-1212">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-5/" title="Inferno 5">
+					5				</a>
+			</li>
+					<li class="" id="canto-1214">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-6/" title="Inferno 6">
+					6				</a>
+			</li>
+					<li class="" id="canto-1216">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-7/" title="Inferno 7">
+					7				</a>
+			</li>
+					<li class="" id="canto-1218">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-8/" title="Inferno 8">
+					8				</a>
+			</li>
+					<li class="" id="canto-1220">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-9/" title="Inferno 9">
+					9				</a>
+			</li>
+					<li class="" id="canto-1222">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-10/" title="Inferno 10">
+					10				</a>
+			</li>
+					<li class="" id="canto-1224">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-11/" title="Inferno 11">
+					11				</a>
+			</li>
+					<li class="" id="canto-1226">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-12/" title="Inferno 12">
+					12				</a>
+			</li>
+					<li class="" id="canto-1228">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-13/" title="Inferno 13">
+					13				</a>
+			</li>
+					<li class="" id="canto-1230">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-14/" title="Inferno 14">
+					14				</a>
+			</li>
+					<li class="" id="canto-1232">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-15/" title="Inferno 15">
+					15				</a>
+			</li>
+					<li class="" id="canto-1234">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-16/" title="Inferno 16">
+					16				</a>
+			</li>
+					<li class="" id="canto-1236">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-17/" title="Inferno 17">
+					17				</a>
+			</li>
+					<li class="" id="canto-1238">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-18/" title="Inferno 18">
+					18				</a>
+			</li>
+					<li class="" id="canto-1240">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-19/" title="Inferno 19">
+					19				</a>
+			</li>
+					<li class="" id="canto-1243">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-20/" title="Inferno 20">
+					20				</a>
+			</li>
+					<li class="" id="canto-1245">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-21/" title="Inferno 21">
+					21				</a>
+			</li>
+					<li class="" id="canto-1249">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-22/" title="Inferno 22">
+					22				</a>
+			</li>
+					<li class="" id="canto-1251">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-23/" title="Inferno 23">
+					23				</a>
+			</li>
+					<li class="" id="canto-1643">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-24/" title="Inferno 24">
+					24				</a>
+			</li>
+					<li class="" id="canto-1253">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-25/" title="Inferno 25">
+					25				</a>
+			</li>
+					<li class="" id="canto-1255">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-26/" title="Inferno 26">
+					26				</a>
+			</li>
+					<li class="" id="canto-1651">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-27/" title="Inferno 27">
+					27				</a>
+			</li>
+					<li class="" id="canto-1257">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-28/" title="Inferno 28">
+					28				</a>
+			</li>
+					<li class="" id="canto-1259">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-29/" title="Inferno 29">
+					29				</a>
+			</li>
+					<li class="" id="canto-1261">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-30/" title="Inferno 30">
+					30				</a>
+			</li>
+					<li class="" id="canto-1263">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-31/" title="Inferno 31">
+					31				</a>
+			</li>
+					<li class="" id="canto-1265">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-32/" title="Inferno 32">
+					32				</a>
+			</li>
+					<li class="" id="canto-1267">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-33/" title="Inferno 33">
+					33				</a>
+			</li>
+					<li class="" id="canto-1270">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-34/" title="Inferno 34">
+					34				</a>
+			</li>
+			</ul>
+</div>
+
+<!-- purgatory index -->
+
+<div class="canti-index-row">
+	<h3>Purgatorio:</h3>
+	<ul>
+					<li class="" id="canto-1199">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-1/" title="Purgatorio 1">
+					1				</a>
+			</li>
+					<li class="" id="canto-1201">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-2-2/" title="Purgatorio 2">
+					2				</a>
+			</li>
+					<li class="" id="canto-1272">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-3/" title="Purgatorio 3">
+					3				</a>
+			</li>
+					<li class="" id="canto-1274">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-4/" title="Purgatorio 4">
+					4				</a>
+			</li>
+					<li class="" id="canto-1276">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-5/" title="Purgatorio 5">
+					5				</a>
+			</li>
+					<li class="" id="canto-1278">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-6/" title="Purgatorio 6">
+					6				</a>
+			</li>
+					<li class="" id="canto-1280">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-7/" title="Purgatorio 7">
+					7				</a>
+			</li>
+					<li class="" id="canto-1282">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-8/" title="Purgatorio 8">
+					8				</a>
+			</li>
+					<li class="" id="canto-1284">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-9/" title="Purgatorio 9">
+					9				</a>
+			</li>
+					<li class="" id="canto-1286">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-10/" title="Purgatorio 10">
+					10				</a>
+			</li>
+					<li class="" id="canto-1288">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-11/" title="Purgatorio 11">
+					11				</a>
+			</li>
+					<li class="" id="canto-1290">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-12/" title="Purgatorio 12">
+					12				</a>
+			</li>
+					<li class="" id="canto-1292">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-13/" title="Purgatorio 13">
+					13				</a>
+			</li>
+					<li class="" id="canto-1294">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-14/" title="Purgatorio 14">
+					14				</a>
+			</li>
+					<li class="" id="canto-1296">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-15/" title="Purgatorio 15">
+					15				</a>
+			</li>
+					<li class="" id="canto-1298">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-16/" title="Purgatorio 16">
+					16				</a>
+			</li>
+					<li class="" id="canto-1301">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-17/" title="Purgatorio 17">
+					17				</a>
+			</li>
+					<li class="" id="canto-1303">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-18/" title="Purgatorio 18">
+					18				</a>
+			</li>
+					<li class="" id="canto-1305">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-19/" title="Purgatorio 19">
+					19				</a>
+			</li>
+					<li class="" id="canto-1307">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-20/" title="Purgatorio 20">
+					20				</a>
+			</li>
+					<li class="" id="canto-1309">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-21/" title="Purgatorio 21">
+					21				</a>
+			</li>
+					<li class="" id="canto-1311">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-22/" title="Purgatorio 22">
+					22				</a>
+			</li>
+					<li class="" id="canto-1313">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-23/" title="Purgatorio 23">
+					23				</a>
+			</li>
+					<li class="" id="canto-1315">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-24/" title="Purgatorio 24">
+					24				</a>
+			</li>
+					<li class="" id="canto-1317">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-25/" title="Purgatorio 25">
+					25				</a>
+			</li>
+					<li class="" id="canto-1319">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-26/" title="Purgatorio 26">
+					26				</a>
+			</li>
+					<li class="" id="canto-1321">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-27/" title="Purgatorio 27">
+					27				</a>
+			</li>
+					<li class="" id="canto-1323">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-28/" title="Purgatorio 28">
+					28				</a>
+			</li>
+					<li class="" id="canto-1325">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-29/" title="Purgatorio 29">
+					29				</a>
+			</li>
+					<li class="" id="canto-1327">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-30/" title="Purgatorio 30">
+					30				</a>
+			</li>
+					<li class="" id="canto-1329">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-31/" title="Purgatorio 31">
+					31				</a>
+			</li>
+					<li class="" id="canto-1331">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-32/" title="Purgatorio 32">
+					32				</a>
+			</li>
+					<li class="" id="canto-1333">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/purgatorio/purgatorio-33/" title="Purgatorio 33">
+					33				</a>
+			</li>
+			</ul>
+</div>
+
+<!-- paradiso index -->
+
+<div class="canti-index-row">
+	<h3>Paradiso:</h3>
+	<ul>
+		 
+			<li class="Paradiso 1" id="canto-1335">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-1/" title="Paradiso 1">
+					1				</a>
+			</li>
+		 
+			<li class="Paradiso 2" id="canto-1337">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-2/" title="Paradiso 2">
+					2				</a>
+			</li>
+		 
+			<li class="Paradiso 3" id="canto-1339">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-3/" title="Paradiso 3">
+					3				</a>
+			</li>
+		 
+			<li class="Paradiso 4" id="canto-1341">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-4/" title="Paradiso 4">
+					4				</a>
+			</li>
+		 
+			<li class="Paradiso 5" id="canto-1343">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-5/" title="Paradiso 5">
+					5				</a>
+			</li>
+		 
+			<li class="Paradiso 6" id="canto-1345">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-6/" title="Paradiso 6">
+					6				</a>
+			</li>
+		 
+			<li class="Paradiso 7" id="canto-1347">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-7/" title="Paradiso 7">
+					7				</a>
+			</li>
+		 
+			<li class="Paradiso 8" id="canto-1349">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-8/" title="Paradiso 8">
+					8				</a>
+			</li>
+		 
+			<li class="Paradiso 9" id="canto-1351">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-9/" title="Paradiso 9">
+					9				</a>
+			</li>
+		 
+			<li class="Paradiso 10" id="canto-1353">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-10/" title="Paradiso 10">
+					10				</a>
+			</li>
+		 
+			<li class="Paradiso 11" id="canto-1355">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-11/" title="Paradiso 11">
+					11				</a>
+			</li>
+		 
+			<li class="Paradiso 12" id="canto-1357">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-12/" title="Paradiso 12">
+					12				</a>
+			</li>
+		 
+			<li class="Paradiso 13" id="canto-1359">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-13/" title="Paradiso 13">
+					13				</a>
+			</li>
+		 
+			<li class="Paradiso 14" id="canto-1361">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-14/" title="Paradiso 14">
+					14				</a>
+			</li>
+		 
+			<li class="Paradiso 15" id="canto-1363">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-15/" title="Paradiso 15">
+					15				</a>
+			</li>
+		 
+			<li class="Paradiso 16" id="canto-1365">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-16/" title="Paradiso 16">
+					16				</a>
+			</li>
+		 
+			<li class="Paradiso 17" id="canto-1367">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/" title="Paradiso 17">
+					17				</a>
+			</li>
+		 
+			<li class="Paradiso 18" id="canto-1369">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-18/" title="Paradiso 18">
+					18				</a>
+			</li>
+		 
+			<li class="Paradiso 19" id="canto-1371">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-19/" title="Paradiso 19">
+					19				</a>
+			</li>
+		 
+			<li class="Paradiso 20" id="canto-1373">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-20/" title="Paradiso 20">
+					20				</a>
+			</li>
+		 
+			<li class="Paradiso 21" id="canto-1375">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-21/" title="Paradiso 21">
+					21				</a>
+			</li>
+		 
+			<li class="Paradiso 22" id="canto-1377">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-22/" title="Paradiso 22">
+					22				</a>
+			</li>
+		 
+			<li class="Paradiso 23" id="canto-1379">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-23/" title="Paradiso 23">
+					23				</a>
+			</li>
+		 
+			<li class="Paradiso 24" id="canto-1381">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-24/" title="Paradiso 24">
+					24				</a>
+			</li>
+		 
+			<li class="Paradiso 25" id="canto-1383">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-25/" title="Paradiso 25">
+					25				</a>
+			</li>
+		 
+			<li class="Paradiso 26" id="canto-1385">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-26/" title="Paradiso 26">
+					26				</a>
+			</li>
+		 
+			<li class="Paradiso 27" id="canto-1387">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-27/" title="Paradiso 27">
+					27				</a>
+			</li>
+		 
+			<li class="Paradiso 28" id="canto-1389">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-28/" title="Paradiso 28">
+					28				</a>
+			</li>
+		 
+			<li class="Paradiso 29" id="canto-1391">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-29/" title="Paradiso 29">
+					29				</a>
+			</li>
+		 
+			<li class="Paradiso 30" id="canto-1393">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-30/" title="Paradiso 30">
+					30				</a>
+			</li>
+		 
+			<li class="Paradiso 31" id="canto-1395">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-31/" title="Paradiso 31">
+					31				</a>
+			</li>
+		 
+			<li class="Paradiso 32" id="canto-1397">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-32/" title="Paradiso 32">
+					32				</a>
+			</li>
+		 
+			<li class="Paradiso 33" id="canto-1399">
+				<a href="https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-33/" title="Paradiso 33">
+					33				</a>
+			</li>
+			</ul>
+</div>
+  	</div>
+
+    <!-- view larger button -->
+
+    <div class="view-larger">
+      <div class="popup-text">
+        <a href="https://digitaldante.columbia.edu/wp-content/uploads/2014/11/1401630012.jpg"><img src="https://digitaldante.columbia.edu/wp-content/themes/dante-core/assets/graphics/zoom.png" alt="view full cover image"></a>
+      </div>
+    </div>
+
+  </nav>
+
+</div><!-- closes canto cover image -->
+
+<!-- main content area -->
+
+<div class="main-content">
+
+	<div class="main-tabs">
+
+		<input checked="checked" id="tab-1" type="radio" name="main" />
+		<input id="tab-2" type="radio" name="main" />
+		<input id="tab-3" type="radio" name="main" />
+    <input id="tab-4" type="radio" name="main" />
+    <input id="tab-5" type="radio" name="main" />
+
+		<nav>
+			<ul class="main-tab-nav">
+				<li class="tab-1"><label for="tab-1">Commento Baroliniano</label>
+				<li class="tab-2"><label for="tab-2">Text &amp; Translations</label></li>
+				<li class="tab-3"><label for="tab-3">Gallery</label></li>
+                  <li class="tab-4"><label for="tab-4">Video</label></li>
+                          <li class="tab-5"><label for="tab-5">Audio</label></li>
+        			</ul>
+		</nav>
+
+		<section>
+    
+			<!-- commento baroliniano tab -->
+
+			<div class="tab-1">
+
+      
+				<div class="post-title">
+					<h2>Myth Meets History, Isaiah Meets Aristotle</h2>
+				</div>
+
+				<div class="post-entry">
+					<ul>
+<li>The construction of virtual reality</li>
+<li>Life = voyage, an equivalence expressed in the opening metaphor: “cammin di nostra vita” (path of our life), inherited from the “nuovo e mai non fatto cammino di questa vita” (the new and never before traveled path of this life) of <em>Convivio </em>4.12.15</li>
+<li>Divine love  — “l’amor divino” — first caused the stars to move (<em>Inf. </em>1.39-40), initiating the creation of the universe</li>
+<li>The mixing of classical with Christian yields a uniquely hybrid “middling” textuality</li>
+<li>To the traditional glosses of ”Nel mezzo”, which include Isaiah 38:10 and Horace’s <em>Ars Poetica</em>, I add:
+<ul>
+<li>The existential mid-point, from Aristotle’s definition of time as a “kind of middle-point” in the <em>Physics</em> (Dante cites Aristotle on time in the <em>Convivio</em>) and</li>
+<li>The ethical <em>mezzo</em>, from Aristotle’s definition of virtue as residing at the mean (cited by Dante in the canzone <em>Le dolci rime </em>and later in the <em>Convivio</em>)</li>
+</ul>
+</li>
+<li>The voyager who is lost at sea and the Ulysses theme: on “Ulyssean” as an epithet in <em>The Undivine Comedy </em>and in this Commento</li>
+<li>On desire and the she-wolf —<em> la lupa — </em>as the embodiment of negative desire, <em>cupiditas</em></li>
+<li>First half of <em>Inferno </em>1: mythic binaries in a visionary landscape</li>
+<li>Second half of <em>Inferno </em>1: arrival of Vergil/Virgilio and the introduction of history</li>
+<li>The use of dialogue to build diegetic complexity and to construct character</li>
+<li>Classical culture both <em>in bono </em>and <em>in malo</em></li>
+<li>A blueprint of the afterlife in three realms</li>
+<li>“Con lei ti lascerò nel mio partire” (<em>Inf. </em>1.123): Dante’s ability to conjure real affect in real time</li>
+</ul>
+<hr />
+<p><span style="color: #ff0000;">[1]</span> <em>Inferno </em>1 and <em>Inferno </em>2 are both introductory canti, although in quite different ways: <em>Inferno</em> 1 is more universal and world-historical in its focus, while <em>Inferno </em>2 is more attentive to the plight and history — past and future — of one single man. The hero’s journey through Hell does not begin until <em>Inferno </em>3. So what happens before we get to <em>Inferno </em>3? What happens in <em>Inferno </em>1 and <em>Inferno </em>2?</p>
+<p><span style="color: #ff0000;">[2]</span> In <em>Inferno </em>1 and <em>Inferno </em>2 Dante-poet is creating the premises that enable the subsequent action to occur. He is laying down the premises that enable the reader to suspend credibility and to “believe” in that action. Thus, the poet is already engaged in the <em>Commedia</em>’s great project of creating a virtual reality.</p>
+<p><span style="color: #ff0000;">[3] </span>Another way in which Dante sets about creating his possible world is by indicating the parameters of his universe, which he does by linking the rising sun to the original  moment of creation: “’l sol montava ’n su con quelle stelle / ch’eran con lui quando l’amor divino / mosse di prima quelle cose belle” (the sun was rising now in fellowship / with the same stars that had escorted it / when Divine Love first moved those things of beauty [<em>Inf. </em>1.38-40]). The sun is rising “with the same stars” that were with it when God first created stars and everything else. It was believed that creation occurred in springtime. Therefore, Dante is telling us that the the sun is in Aries — it is springtime. (See the astronomical diagram below by Louis Moffa.)</p>
+<p><span style="color: #ff0000;">[4] <span style="color: #000000;">We note too that the ground of being is also the ground of aesthetics: God made <em>cose belle </em>— things of beauty. Moreover, this use of <em>belle </em>is the first occurrence of any form of the adjective “beautiful” in the <em>Commedia</em>. There is a cluster of first occurrences of forms of <em>bello </em>in <em>Inferno </em>1-3: “cose belle” (<em>Inf. </em>1.40), “lo bello stilo” (<em>Inf. </em>1.87), “donna . . . bella” (<em>Inf. </em>2.53), “bel monte” (<em>Inf. </em>2.120), “i ciel . . . men belli” (<em>Inf. </em>3.40).</span></span></p>
+<p><span style="color: #ff0000;">[5]</span><em> Inferno </em>1 features both the beauty of the universe (“cose belle”) and the beauty of Dante’s poetic style (“lo bello stilo”): in other words, the canto features being, that which is, and Dante’s poetry, that which represents being. The two — being and the representation of being — will go self-consciously in tandem throughout the <em>Commedia</em>. A term more familiar to literary critics than “being” is “reality”; thus, it is not surprising that reality and realism are themes that pulse through Dante Studies.</p>
+<p><span style="color: #ff0000;">[6]</span><em> Inferno </em>consists of 34 canti, <em>Purgatorio </em>of 33 canti, and <em>Paradiso </em>of 33 canti, making <em>Inferno </em>1 the “extra” unit of text, as befits a canto that offers a prelude to the journey as a whole. <em>Inferno </em>1 concludes with a schematic outline of the three regions of the afterlife: verses 114-117 describe Hell, verses 118-120 describe Purgatory, and verses 121-129 describe Paradise. Together, this section offers a blueprint of the entire journey, of all 100 canti of the poem. Therefore, when Dante wrote <em>Inferno </em>1 he knew, at least in schematic terms, that the <em>Commedia </em>would comprise three regions, likely corresponding to three books.</p>
+<p style="text-align: center;">* * *</p>
+<p> <span style="color: #ff0000;">[7]</span> Ideas of the afterlife have histories, like all ideas. Dante has a place in the history of the imagining of the Christian afterlife, a place that can be traced and debated. Two Dantean signatures in the forging of his afterlife are the mixing of classical with Christian sources and of high with low culture:</p>
+<blockquote><p>Therefore, although Dante reflects the most informed theological thought on hell, he is certainly not constrained by it. Moving from the theological template, he widens the range of cultural resources available to him in two fundamental ways: one, he utilizes pagan sources as well as Christian ones; two, he does not limit his Christian sources to the high culture of theology. Thus, he explicitly borrows from such (high culture) pagan sources as Aristotle’s <em>Nicomachean Ethics</em>, which he credits as a source for the structure of his hell, and Vergil’s underworld in <em>Aeneid</em> 6, various of whose characters and features he appropriates and transforms. But Dante’s hell also demonstrates clear links to the established popular iconography of hell and to popular cultural forms like sermons, visions, and the didactic poetry of vernacular predecessors such as Bonvesin da la Riva and Giacomino da Verona. As Alison Morgan correctly notes in <em>Dante and the Medieval Other</em> <em>World</em>, Dante ‘‘is the first Christian writer to combine the popular material with the theological and philosophical systems of his day’’ (“Medieval Multiculturalism and Dante’s Theology of Hell,” cited in Coordinated Reading, p. 103).</p></blockquote>
+<p><span style="color: #ff0000;">[8]</span> The mixing of classical with Christian sources is a Dantean trait already established in the poem’s first verse. Here the pilgrim is lost in a dark wood at the midway point of life’s path, which is to say, at thirty-five years old. Very con veniently, Dante was born in 1265 and in 1300, the year that he stipulates for his afterlife journey, he was precisely thirty-five, midway through a lifespan of seventy years (see Psalm 90:10: “Our days may come to seventy years”)</p>
+<p><span style="color: #ff0000;">[9]</span> The poet has combined biblical and classical motifs to create a uniquely hybrid “middling” textuality. “Nel mezzo” marks a middle-point/meeting-point of cultural imbrication: “Nel <strong>mezzo</strong> del cammin di nostra vita” (<strong>Midway</strong> upon the journey of our life [<em>Inf. </em>1.1]) evokes, as critics have long noted, both biblical and classical precedents, both Isaiah 38:10 (“In the middle of my days I must depart”) and Horace’s injunction in <em>Ars Poetica</em> to commence a narrative “in medias res” (in the midst of things [<em>Ars Poetica</em>, 148]). The mid-point thus boasts both classical and biblical pedigrees.</p>
+<p><span style="color: #ff0000;">[10]</span> To the above well-known intertexts for “Nel mezzo”, I will add two Aristotelian texts: the passage in the <em>Physics </em>where we find Aristotle’s discussion of time, and the passage in <em>Nicomachean Ethics </em>where we find his definition of virtue.</p>
+<p><span style="color: #ff0000;">[11]</span> In the <em>Physics</em>, Aristotle describes time as “a kind of middle-point, uniting in itself both a beginning and an end, a beginning of future time and an end of past time” (<em>Physics </em>8.1.251b18–26).<a href="#_ftn1" name="_ftnref1">[1] </a><a href="#_ftnref1" name="_ftn1"></a>In his philosophical prose treatise, <em>Convivio</em>, written before the <em>Inferno</em>, circa 1304-1307, Dante shows that he is acquainted with Aristotle’s writings on time, citing the <em>Physics</em> as follows: “Lo tempo, secondo che dice Aristotile nel quarto de la Fisica, è ‘numero di movimento, secondo prima e poi’” (Time, according to Aristotle in the fourth book of the Physics, is “number of movement, according to before and after” [<em>Conv. </em>4.2.6]).<span style="color: #ff0000;"><br />
+</span></p>
+<p><span style="color: #ff0000;">[12] </span>When Dante begins the <em>Commedia</em> “Nel mezzo”, it is hard not to think of Aristotle’s definition of time as “a kind of middle-point” and to feel that the poet is alerting us to our existential being in time, also intrinsic to the opening metaphor of life as a path. As humans, we are ineluctably tethered to “number of motion, according to before and after”—to time.</p>
+<p><span style="color: #ff0000;">[13]</span> Now we turn to the second and more explicit Aristotelian resonance in the first verse of the poem, one built into the choice of the very word “<em>mezzo”. </em>Aristotle wrote on virtue as the mean between two vicious extremes in <em>Nicomachean Ethics</em>, Dante, by the time he came to write <em>Inferno </em>1, had already meditated at length on the <em>Ethics </em>and on the Aristotelian concept of virtue. Indeed, in his canzone <em>Le dolci rime</em>, written circa 1294, long before the <em>Inferno</em>, Dante translates Aristotle from Latin into Italian, referring to the Aristotelian “mean” in Italian as “mezzo”: “Quest’è, secondo che l’Etica dice, / un abito eligente / lo qual dimora in <strong>mezzo</strong> solamente” (This is, as the <em>Ethics </em>states, a “habit of choosing which keeps steadily to the <strong>mean</strong>” [<em>Le dolci rime</em>, 85–87; trans. Foster-Boyde]). He returned to the same canzone roughly ten years later in Book 4 of the <em>Convivio</em>, which he devoted to the canzone <em>Le dolci rime </em>and to a discussion of Aristotle’s ethical system, in which virtue is the mean: the <em>mezzo</em>.</p>
+<p><span style="color: #ff0000;">[14]</span> One of the themes of this commentary is the degree to which the Aristotelian idea of virtue as the mean carries over from the fourth book of the <em>Convivio </em>to permeate the deep structures of Dante’s thought. In other words, although Dante certainly resonates to Augustine and other dualist Christian thinkers on the topic of desire, as we shall discuss shortly, he does not keep his analysis within a binary structure, but opens it to the Aristotelian spectrum. It is important to grasp that Aristotle’s idea of the <em>mezzo </em>belongs within a unified and non-dualistic construction of human behavior.<a href="#_ftn1" name="_ftnref1">[2]</a></p>
+<p><span style="color: #ff0000;">[15]</span> Both these Aristotelian understandings—of virtue as the mean and of time as a middle-point—inform the first verse of the <em>Commedia</em>. The word <em>mezzo</em> in the <em>Commedia</em>’s first verse is Aristotelian as well as biblical and Horatian. It resonates both to Aristotle on time, in the metaphysical dimension, and to Aristotle on virtue, in the moral-ethical sphere.</p>
+<p style="text-align: center;">* * *</p>
+<p><a href="#_ftnref1" name="_ftn1"></a><span style="color: #ff0000;">[16]</span> The metaphor “cammin di <strong>nostra</strong> vita”/“journey of <strong>our</strong> life” begins the work of conflating the journey of the poem with the existential and personal journeys through time and space that each of us on this planet experiences every day. As Dante had previously written in the <em>Convivio</em>, human life is a “new and never before traveled path”: “[il] nuovo e mai non fatto cammino di questa vita” (the new and never before traveled path of this life [<em>Conv</em><em>ivio</em> 4.12.15]). The <em>Commedia</em>’s work of creating a virtual reality, of encouraging its readers to feel that they are journeying along with Dante, begins with the metaphor of life as a path on which we all walk. The walkers are plural and many, and each has her own path; in this sense the paths are many. But we all walk the <em>cammino di questa vita</em>: in this existential sense the path is one. The experience of life as a journey through time and space is an experience shared by all.</p>
+<p><span style="color: #ff0000;">[17]</span> The opening metaphor of the path, of the voyage by land, will shortly be enriched by the simile of a disastrous voyage by sea. The shipwrecked man who climbs from the watery deep to the shore is the first “Ulyssean” reference of the poem (<em>Inf.</em> 1.22-24). The mythic Greek hero Odysseus, Ulysses in Latin, as Dante encountered him in Vergil’s <em>Aeneid </em>and Cicero’s <em>De Finibus </em>and other Latin texts, is a prime reference point in the <em>Commedia</em>, as well as the featured soul of <a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-26/"><em>Inferno </em>26</a>: Ulysses is the quintessential voyager who comes to perdition, who is lost at sea. As many have noted, Ulysses is Dante-pilgrim’s negative double. However, as my book <em>The Undivine Comedy </em>argues, Dante-poet becomes ever more transgressive and Ulyssean as the <em>Commedia </em>proceeds. From the point of view of the writing poet, <em>Paradiso </em>is the most transgressive — the most Ulyssean — part of the poem. The Ulyssean component of the <em>Commedia </em>is a major theme of <em>The Undivine Comedy </em>and of this Commento, and my usage of the epithet “Ulyssean” will be clarified as we proceed.</p>
+<p><span style="color: #ff0000;">[18] </span>The premise of Dante’s journey is that, like Ulysses, he has lost his way: “ché la diritta via era smarrita” (for the straight way was lost [<em>Inf. </em>1.3]). Moreover, he is not just passively lost; he has actively abandoned the true way: “la verace via abbandonai” (I abandoned the true path [<em>Inf. </em>1.12]). However, he spies a way forward. He arrives at a hill whose shoulders are clothed by the rays of the sun, named in periphrasis as the planet that leads men straight by all paths:</p>
+<div class="two-col">
+<pre>Ma poi ch’i’ fui al piè d’un colle giunto,
+là dove terminava quella valle
+che m’avea di paura il cor compunto,
+guardai in alto, e vidi le sue spalle
+vestite già de’ raggi del pianeta
+che mena dritto altrui per ogne calle.
+(<em>Inf. </em>1.13-18)</pre>
+<pre>But when I’d reached the bottom of a hill—
+it rose along the boundary of the valley
+that had harassed my heart with so much fear—
+I looked on high and saw its shoulders clothed
+already by the rays of that same planet
+which serves to lead men straight along all roads.</pre>
+</div>
+<p><span style="color: #ff0000;">[19]</span> After resting, the protagonist sets out to climb the hill, “colle” in verse 13 (later called a mountain, in verse 77), whose heights are “dressed” in divine light. He attempts to climb the hill three times and three times he is repulsed and forced backward and downward, to perdition. The poet here creates a “stuttering” narrative texture of repeated “new beginnings&#8221; (see chapter 2 of <em>Undivine Comedy </em>for the concept of new beginnings and for the way they play out in the first canti of <em>Inferno</em>), thus giving narrative life to the bumpy and ever-impeded paths of our existential lives. The three beasts who block the pilgrim’s way grow ever more fearsome: the first is a leopard (<em>lonza</em>), then comes a lion (<em>leone</em>), and finally a she-wolf (<em>lupa</em>). Traditionally the three beasts have been identified with lust (<em>lonza</em>), pride (<em>leone</em>), and avarice (<em>lupa</em>).</p>
+<p><span style="color: #ff0000;">[20]</span> Particularly important for the essential Dantean theme of desire as it will be unfolded throughout the <em>Commedia </em>is the <em>lupa</em>, who will be recalled in <em>Purgatorio </em>20.10-12 for her “fame sanza fine cupa” (dark hunger without end; these verses are quoted in the long passage from page 110 of <em>The </em><em>Undivine Comedy </em>cited in paragraph 24 below). The she-wolf goes beyond a narrow definition of avarice and embodies the negative polarity in the spectrum of desire: <em>cupiditas</em>.</p>
+<p><span style="color: #ff0000;">[21] </span>Desire is defined in the <em>Convivio</em> as that which we lack: “ché nullo desidera quello che ha, ma quello che non ha, che è manifesto difetto” (for no one desires what he has, but what he does not have, which is manifest lack [<em>Conv</em>. 3.15.3]). Desire is defective, as I write in <em>The Undivine Comedy</em>: <strong><br />
+</strong></p>
+<blockquote><p>Desire is defective, while the cessation of desire is happiness, beatitude, in a word perfection. Beatitude as spiritual autonomy — as emancipation from the new — is introduced as early as the <em>Vita Nuova</em>, where Dante learns to place his <em>beatitudine</em> not in Beatrice’s greeting, which can be removed (thus causing him to desire, to exist defectively), but in that which cannot fail him: “quello che non mi puote venire meno” (<em>VN </em>18.4). Since nothing mortal can satisfy these conditions, we either learn from the failure of one object of desire to cease to desire mortal objects altogether, or we move forward along the path of life toward something else, something new. (<em>The Undivine Comedy</em>, p. 26)</p></blockquote>
+<p><span style="color: #ff0000;">[22]</span> The description of the <em>lupa </em>connotes desire as lack, for she eats and remains hungry, embodying Augustinian cupidity and lack of peace:</p>
+<blockquote><p>The <em>lupa</em> of <em>Inferno</em> 1 illuminates the negative side of the basic human condition whereby <em>disire è moto spiritale</em> and recalls Augustine’s own reduction of all desire to spiritual motion, either in the form of “charity,” desire that moves toward God, or “cupidity,” desire that remains rooted in the flesh. As cupidity, our dark desire, the <em>lupa</em> is quintessentially without peace, “la bestia sanza pace” (<em>Inf</em>. 1.58). Her restlessness and insatiability denote unceasing spiritual motion, unceasing desire: heavy “with all longings” — “di tutte brame” (49) — her greedy craving is never filled, and after eating she is more hungry than before: “mai non empie la bramosa voglia, / e dopo ’l pasto ha più fame che pria” [<em>Inf. </em>1.98-99]). Her limitless hunger is both caused by unsatisfied desire and creates the condition for ever less satisfaction, since, in Augustine’s words, “When vices have emptied the soul and led it to a kind of extreme hunger, it leaps into crimes by means of which impediments to the vices may be removed or the vices themselves sustained” (<em>De Doctrina Christiana</em> 3.10.16). When the “antica lupa” is recalled as an emblem of cupidity on purgatory&#8217;s terrace of avarice (again indicating the common ground that underlies all the sins of inordinate desire), her “hunger without end” is once more her distinguishing characteristic: “Maladetta sie tu, antica lupa, / che più che tutte l’altre bestie hai preda / per la tua fame sanza fine cupa!” (Cursed be you, ancient wolf, who more than all the other beasts have prey, because of your deep hunger without end! [<em>Purg</em>. 20.10-12]). (<em>The Undivine Comedy</em>, p. 110)</p></blockquote>
+<p><span style="color: #ff0000;">[23]</span> Desire is lack, but therefore it is also the imperative of forward motion, the “spiritual motion” in which we engage to fill the lack. This is precisely the definition of desire that Dante offers in <em>Purgatorio </em>18: “disire, / ch’è moto spiritale” (desire, which is spiritual motion [<em>Purg. </em>18.31–32]). Desire leads us astray, but desire also leads us to the good. How we negotiate our impulse of desire, whether we regulate it with our reason — these are the keys to our destiny. Desire for Dante is not wrong per se, but must always be controlled by reason, as he lets us know forcefully in <em>Inferno </em>5. (<a href="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-5/">Commento on <em>Inferno </em>5)</a></p>
+<p><span style="color: #ff0000;">[24]</span> Dante’s interest in the regulation of desire by reason is part of what leads him to value <em>misura</em>, the moderating force in the Aristotelian ethical scheme. <em>Misura</em>, a concept that Dante will first invoke in <em>Inferno </em>7, is the behavior that keeps us “dwelling only at the mean” (<em>Le dolci</em> <em>rime</em>, 87).</p>
+<p style="text-align: center;">* * *</p>
+<p><span style="color: #ff0000;">[25]</span> Throughout this reading of <em>Inferno</em> I use Italian “Virgilio” to refer to the character in Dante’s poem. In this way I distinguish the character “Virgilio” (invented by Dante Alighieri) from the historical person, Vergil, the Roman author of the <em>Aeneid </em>who lived from 70 BCE to 19 BCE. (On the reasons for my choice of spelling of “Vergil,” see <em>Dante’s Poets</em>, p. 207, n. 25.)</p>
+<p><span style="color: #ff0000;">[26]</span> The narrative structure of <em>Inferno </em>1 makes the figure Virgilio a literally pivotal presence in the action of the first canto. Structurally and narratologically, <em>Inferno </em>1 is a canto that divides into two parts: the part that precedes the arrival of Virgilio, and the part that follows the arrival of Virgilio. The first part of <em>Inferno </em>1 takes place in an ambiguous surreal topography, one that is dream-like and uncanny, organized around mythic binaries: up/down, straight/crooked, light/dark, true/false, life/death. The actual landscape does not change until the entrance into Hell at the beginning of <em>Inferno</em> 3, but the narrative atmosphere, the poem’s tonality, shifts with the arrival of Virgilio in verse 62. His presence historicizes and grounds the text.</p>
+<p><span class="wp-image-10541 " style="color: #ff0000;">[27] </span>In the first conversation between the pilgrim and Virgilio, Dante-poet moves his narrative from the mythic and visionary <em>exordium</em> of the poem (a  the visionary “sleep” of verse 11) toward that mimetic and historical engagement with “reality” for which the <em>Commedia </em>is renowned.</p>
+<p><span style="color: #ff0000;">[28]</span> Indeed, the suture marks that tie the mythic to the historical are not hidden, but left visible, rendered visible by a detail that is worth noting, although to my knowledge not picked up by the commentary tradition: the <em>lupa</em> is — remarkably, and quite unrealistically — present during the entire opening dialogue between Dante and Virgilio. What was Dante’s goal in writing this scene as he does? Why does he choose to construct the unrealistic overlap between the presence of the daunting <em>lupa</em>, so fearsome that she blocks all passage, all forward motion, and the arrival of the Roman poet?</p>
+<p><span style="color: #ff0000;">[29]</span> With complete lack of verisimilitude, the terrifying beast waits quietly and patiently during many tercets of conversation. The dialogue between Dante and Virgilio begins in verse 65, when Dante-protagonist calls out, beseeching pity of the unknown shade who has just appeared, and yet only in verse 88 does Dante finally ask the Roman poet for help. Twenty-six verses have thus elapsed from the beginning of their conversation until the pilgrim, in verse 88, finally points to the <em>lupa</em> and asks for succor:<span style="color: #ff0000;"><br />
+</span></p>
+<div class="two-col">
+<pre>Vedi la bestia per cu’ io mi volsi:
+aiutami da lei, famoso saggio,
+ch’ella mi fa tremar le vene e i polsi.  
+(<em>Inf</em>. 1.88-90)
+</pre>
+<pre>You see the beast that made me turn aside;
+help me, o famous sage, to stand against her,
+for she has made my blood and pulses shudder.
+</pre>
+</div>
+<p><span style="color: #ff0000;">[30]</span> Let us reconstruct the dialogue that occurs prior to the above request for assistance. Virgilio begins to speak in verse 67, and his first words embed his character in temporal and geographical specificity (at times resulting in curious anachronisms, like his reference to his family as “Lombard” in verse 68). In the phrase “Nacqui <em>sub Julio</em>” (I was born under Julius [<em>Inf. </em>1.70]), Virgilio situates himself in the time of Julius Caesar (100–44 BCE), thus locating himself with precision in the flow of human history. He then announces that he was a poet and explains, by circumlocution, that he wrote the <em>Aeneid </em>(73-75). Virgilio at this point focuses on his interlocutor and asks Dante why he is going backwards rather than forwards. Why is he returning to the darkness whence he came?: “Ma tu perché ritorni a tanta noia?” (But why do you return to wretchedness? [<em>Inf. </em>1.76]). Why isn’t he climbing the “delightful mountain” (a reference to the <em>colle </em>of verse 13) that is “the origin and cause of every joy”: “perché non sali il dilettoso monte / ch’è principio e cagion di tutta gioia?” (77-78).</p>
+<p><span style="color: #ff0000;">[31]</span> Dante-traveler does not answer these questions, although they offer the opportunity to address the presence of the she-wolf. In effect the pilgrim rejects the opportunity to beg for protection from the <em>lupa. </em>Why? Because he experiences overwhelming desire to focus on the identity of the shade whom he has just met.</p>
+<p><span style="color: #ff0000;">[32]</span> Dante replies to the shade of the Roman poet by posing his own amazed question, which amounts to “Are you really Virgilio?”: “Or se’ tu quel Virgilio . . . ?” (And are you then that Vergil . . . ? [<em>Inf</em>. 1.79]). In the slippage between the question posed by Virgilio, which pertains to the canto’s major plot-line of Dante’s failure, fear, and distress, and the protagonist’s digressive reply, which opens a new plot-line regarding Dante’s overpowering love for Vergil and his poetry — a love that in the moment takes precedence even over seeking refuge from the <em>lupa </em>and being able to climb the mountain that leads to salvation — we learn something new about this poet. He adores Vergil’s poetry and classical antiquity. We also see how Dante-poet uses dialogue to generate new plot-lines and thus diegetic complexity. He also uses dialogue to construct character. <strong><br />
+</strong></p>
+<p><span style="color: #ff0000;">[33]</span> Virgilio now explains figuratively the nature of the <em>lupa </em>and the threat that the beast poses: “e dopo ’l pasto ha più fame che pria” (when she has fed, she’s hungrier than before [<em>Inf. </em>1.99]). We infer that the negative desire the <em>lupa</em> embodies is <em>cupiditas</em>, an ever-unsatisfied hunger and greed that can never be filled. The <em>lupa</em> is so fierce an impediment that the hill that she blocks cannot be climbed; in the next canto she is called precisely the beast “che del bel monte il corto andar ti tolse” (that barred the shortest way up the fair mountain [<em>Inf. </em>2.120]). Unable to go directly upward, Dante must take a much longer route to the heights by traversing the three realms of the afterlife. Describing the three realms, Virgilio tells Dante that he will eventually come to a place where he must leave him and where another guide, an unnamed woman, will take his place: “con lei ti lascerò nel mio partire” (With her at my departure I will leave thee [<em>Inf. </em>1.123]).</p>
+<p><span style="color: #ff0000;">[34]</span> This verse, “con lei ti lascerò nel mio partire” (With her at my departure I will leave thee), is signally important: it provides a benchmark that the reader can use to measure Dante’s ability to conjure real affect in real time. Right now, in <em>Inferno </em>1, Dante-protagonist (and mirroring him the reader) pays little attention to this announcement of Virgilio’s eventual departure. However, when that departure occurs in <em>Purgatorio</em> 30, much time and textual space later, the protagonist (and in my experience as a teacher, most readers) will be distraught, experiencing Virgilio’s “partire” as a personal abandonment. Between <em>Inferno </em>1 and <em>Purgatorio </em>30, therefore, Dante-poet convincingly and incrementally changes Dante-pilgrim from the figure we meet in <em>Inferno </em>1 — a poetic enthusiast who is thrilled to meet the author of the <em>Aeneid </em>but does not care that Virgilio will ultimately leave him — to the man he is in <em>Purgatorio </em>30: by then his sorrow at the loss of his father-guide is so great that it temporarily eclipses his joy at the arrival of his original lost beloved, Beatrice.</p>
+<p><span style="color: #ff0000;">[35]</span> Let us return to the lovely interlude in which the pilgrim reacts with amazement to being in the presence of a poet whose work has been of seminal importance to him in his own poetic self-fashioning (<em>Inf. </em>1.82-87). We readers, too, in mimetic reflection of the pilgrim, should be amazed: the guide chosen for this quintessentially Christian quest is the great author of the Latin epic of the founding of Rome. Through the creation of the character of Virgilio and the storyline that he devises for him, Dante-poet engages his deep feelings about classical antiquity, a major theme of this poem.</p>
+<p><span style="color: #ff0000;">[36]</span> Dante’s feelings about classical culture are authentic and conflictual, not at all ironic. Lack of irony is indeed what the poet dramatizes in the pilgrim’s explosive and emotional and deflecting response to Virgilio’s initial questions about his failure to climb the mountain: “Or se’ tu quel Virgilio . . . ?” (<em>Inf</em>. 1.79). Dante’s adoration of classical culture is real: in historiographic terms, Dante’s veneration of classical culture certainly qualifies as an early form of humanism, as will be discussed in the Commento on <em>Inferno </em>4. But, if Dante’s veneration of classical culture is real, so too is his concern about the non-Christianity of that culture. It is typical of Dante to present us with a paradoxical and challenging both/and, rather than with a simplistic either/or.<strong><br />
+</strong></p>
+<p><span style="color: #ff0000;">[37]</span> Thus, Dante has his character Virgilio announce that he lived “in the time of the false and lying gods” (“nel tempo de li dèi falsi e bugiardi” [<em>Inf</em>. 1.72]), but he also makes clear his “great love” for the Roman poet: “<span id="textblock-sclOdlapoelleb" class="textblock ui-droppable">O de li altri poeti onore e lume <span class="commenticonbox">/ </span></span><span id="textblock-sclvllsegaleb" class="textblock ui-droppable">vagliami ’l lungo studio e ’l grande amore <span class="commenticonbox">/ </span></span><span id="textblock-sclcmhfcltvlep" class="textblock ui-droppable">che m’ha fatto cercar lo tuo volume” (<span id="textblock-sclOlahoaopleb" class="textblock ui-droppable">O light and honor of all other poets, / </span><span id="textblock-sclmmlsatilleb" class="textblock ui-droppable">may my long study and the intense love <span class="commenticonbox">/ </span></span><span id="textblock-scltmmsyvsnlep" class="textblock ui-droppable">that made me search your volume serve me now</span></span> [<em>Inf. </em>1.82-84]). Both statements reflect genuine belief and genuine feeling: Dante does indeed consider Vergil to have lived in a time of false deities, and at the same time he does truly love and honor Vergil’s poetry. Dante’s love for the poet Vergil, which takes poetic form as the protagonist’s love for the character Virgilio, structures conflict and tension into the <em>Commedia. </em>In retrospect we understand that this conflict and tension are already present in the first canto.</p>
+<p><span style="color: #ff0000;">[38]</span> The <em>Commedia </em>will give us ample opportunity to ponder the novelty and significance of a Christian poet who chooses a Roman poet not only as his poetic model but also as a vehicle of his salvation. In <em>Inferno </em>1 Dante stakes enormous claims for Virgilio, and hence for classical poetry. This he does through his usage of four key words: <em>poeta</em>, <em>saggio</em>, <em>volume</em>, and <em>autore</em>. In chapter 3 of <em>Dante’s Poets</em>, I trace these four words in the <em>Commedia.</em> The following passage focuses on <em>volume</em> and <em>autore</em>:</p>
+<blockquote><p>As compared to <em>poeta</em> and <em>saggio</em>, terms that describe a trajectory or progression, <em>volume</em> and <em>autore</em> are used in only two contexts: in <em>Inferno</em> for Vergil, and in <em>Paradiso</em> for God. The transition is so immense that it both heightens Vergil, the only poet who is an <em>autore</em> and whose book is a <em>volume</em>, and shrinks him by comparison with that other <em>autore</em>, Who is God, and that other <em>volume</em>, which is God’s book (<em>volume</em> is used variously in the last canticle, but always with relation to texts “written by” God, for instance the book of the future, the book of justice, the universe gathered into one volume). Moreover, when God is termed an author, He is not “’l mio autore” (<em>Inf. 1</em>.85), but the “verace autore” (<em>Par</em>. 26.40). (<em>Dante’s Poets</em>, p. 268)</p></blockquote>
+<p><span style="color: #ff0000;">[39]</span> While the words <em>volume </em>and <em>autore </em>are used only for Virgilio and God, the word <em>poeta </em>traces a poetic lineage in the <em>Commedia.</em><strong><em> </em></strong>This genealogy leads to Dante himself, in a crescendo that moves from Vergil to Statius to Dante:</p>
+<blockquote><p>If Statius replaces Vergil in <em>Purgatorio</em> 22 when he appropriates for himself (albeit in modified form) the name <em>poeta</em>, the final displacement is accomplished by Dante, when he becomes the only <em>poeta</em> of the last canticle, announcing in <em>Paradiso</em> 25 that he shall return as poet to Florence to receive the laurel crown. Although that hope was never fulfilled, the impact of the phrase “ritornerò poeta” remains undiminished at a textual level, since it reveals the arc Dante has inscribed into his poem through the restricted use of the word <em>poeta</em>: the poetic mantle passes from the classical poets, essentially Vergil, to a transitional poet, whose Christianity is disjunct from his poetic practice (and hence the verse in <em>Purgatorio </em>22 with its neat caesura: “Per te poeta fui, per te cristiano” [73]), to the poet whose Christian faith is a sine qua non of his poetics. (<em>Dante’s Poets</em>, p. 269)</p></blockquote>
+<p><span style="color: #ff0000;">[40]</span> The poetic genealogy that is inscribed into the <em>Commedia </em>reveals the arc of poetic history moving from Vergil to Statius to Dante. It is this arc that I attempt to capture in the sub-titles of chapter 3 of <em>Dante’s Poets</em>: “Vergil: <em>Poeta fui</em>” (“I was a poet”, citing <em>Inf. </em>1.73), “Statius: <em>Per te poeta</em> <em>fui</em>” (“Through you I was a poet”, citing <em>Purg</em>. 22.73), and “Dante: <em>ritornerò poeta</em>” (“I shall return as poet”, citing <em>Par. </em>25.8). This poetic genealogy, which is unfolded incrementally, works both to single out Vergil for special honor and ultimately to displace him.<em><br />
+</em></p>
+<p><span style="color: #ff0000;">[41]</span> The history that pierces the mythic penumbra of the <em>Commedia</em>’s overture is Roman history. The first historic moment of consequence that we encounter in this Christian poem belongs to classical antiquity, which is immediately sutured to contemporary Italy. Contemporary Italy is invoked in the “umile Italia” (106) for which Vergilian heroes and heroines gave their lives in the past, leading forward in an uninterrupted continuum:</p>
+<div class="two-col">
+<pre>Di quella umile Italia fia salute
+per cui morì la vergine Cammilla,
+Eurialo e Turno e Niso di ferute.  
+(<em>Inf</em>. 1.106-8) 
+</pre>
+<pre>He will restore humble Italy for which
+the maid Camilla died of wounds,
+and Nisus, Turnus, and Euryalus.
+</pre>
+</div>
+<p><span style="color: #ff0000;">[42]</span> That “Italia” needs to be rescued again is clear in Dante’s apostrophe to contemporary “Italia” in <em>Purgatorio </em>6. Dante depicts Roman history as crucially informing the present: from Roman history we move directly to that of contemporary “Italia” (106), as from Roman poetry (the <em>Aeneid</em>) we move directly to contemporary Italian poetry, Dante’s own “bello stilo che m’ha fatto onore” (the noble style that has honored me [87]).</p>
+<p style="text-align: center;">* * *</p>
+<p>&nbsp;</p>
+<p><a href="#_ftnref1" name="_ftn1">[1]</a> Aristotle here is referring to the moment, which he considers indistinguishable from time: ªNow since time cannot exist and is unthinkable apart from the moment, and the moment is a kind of middle-point, uniting as it does in itself both a beginning and an end, a beginning of future time and an end of past time, it follows that there must always be time: for the extremity of the last period of time that we take must be found in some moment, since time contains no point of contact for us except in the moment. Therefore, since the moment is both a beginning and an end, there must always be time on both sides of itº (<em>Physics</em> 8.1.251b18-26; in the translation of R. P. Hardie and R. K. Gaye, in <em>The Basic Works of Aristotle</em>, ed. Richard McKeon [New York: Random House, 1941]).</p>
+<p><a href="#_ftnref1" name="_ftn1">[2]</a> On this topic, see my essay “Aristotle’s <em>Mezzo</em>, Courtly <em>Misura</em>, and Dante’s Canzone <em>Le dolci rime</em>”, cited in Coordinated Reading. For further elaboration of this belief system, see in this commentary the chapters on <em>Inferno </em>5, <em>Inferno </em>7, and <em>Inferno </em>11.</p>
+<p>&nbsp;</p>
+<hr />
+<div id="attachment_10541" class="wp-caption alignleft" style="width: auto"><a href="https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40.png"><img fetchpriority="high" decoding="async" class="wp-image-10541 " src="https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40-1024x767.png" alt="" width="441" height="330" srcset="https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40-1024x767.png 1024w, https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40-300x225.png 300w, https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40-768x576.png 768w, https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40-1536x1151.png 1536w, https://digitaldante.columbia.edu/wp-content/uploads/2020/08/DDA1.37-40.png 1816w" sizes="(max-width: 441px) 100vw, 441px" /></a><p class="wp-caption-text"><a href="https://digitaldante.columbia.edu/moffa-inferno/"><em>Astronomical diagram illustrating Inferno 1.37-40</em></a></p></div>
+<p>&nbsp;</p>
+        </div>
+
+        <div class="coordinated-reading">
+          <h3>Coordinated Reading</h3>          <p><div class="reading"><em>The Undivine Comedy </em>(Princeton: Princeton University Press, 1992), Chapter 2, “Infernal Incipits: The Poetics of the New,” pp. 21-26, 26-29; Chapter 5, “Purgatory as Paradigm,” p. 110; “Guittone’s <em>Ora</em> <em>parrà</em>, Dante’s <em>Doglia mi reca</em>, and the<em> Commedia</em>’s Discourse of Desire,” 1997, rpt. <em>Dante and the Origins of Italian Literary Culture</em> (New York: Fordham University Press, 2006), pp. 47-69; <em> </em> “Medieval Multiculturalism and Dante’s Theology of Hell,” 2000, rpt. <em>Dante and the Origins of Italian Literary Culture</em>, pp. 102-21; “Aristotle’s <em>Mezzo</em>, Courtly <em>Misura</em>, and Dante’s Canzone <em>Le dolci rime</em>: Humanism, Ethics, and Social Anxiety,” in <em>Dante and the Greeks</em>, ed. Jan Ziolkowski (Cambridge: Harvard U. Press, 2014), pp. 163-79, rpt. <em>Dante's Multitudes: History, Philosophy, Method</em> (South Bend: Notre Dame UP, 2022), pp. 183-202; <em>Dante's Poets</em> (Princeton: Princeton U. Press, 1984), chapter 3.</div></p>
+				</div>
+
+				
+  			
+        <!-- sidebar -->
+
+				<div class="sidebar">
+
+          <!-- translations -->
+          <!-- only show toggle if admin is logged in -->
+                  
+          <br>
+
+          <!-- recommended citation -->
+
+          <h3>Recommended Citation</h3>
+
+          
+<p>
+  Barolini, Teodolinda.
+  “<em>Inferno</em>
+  1:
+  Myth Meets History, Isaiah Meets Aristotle.” <em>Commento Baroliniano</em>, Digital Dante. New York, NY: Columbia University Libraries,
+  2018.
+  https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-1/<br>
+  <span class="red">&lt;paragraph number&gt;</span>
+</p>
+
+          <p>
+            <strong><a href="https://digitaldante.columbia.edu/criticism-context/commento-baroliniano/">Commento Table of Contents</a></strong>
+          </p>
+
+				</div>
+
+			</div><!-- closes tab-1 -->
+
+			<!-- text and translations tab -->
+
+			<div class="tab-2">
+				<!-- text and translations -->
+
+<div class="translations">
+	
+	<div class="translations-tabs">
+			
+		<!-- left side -->
+		
+		<div class="translation-box-1">
+			
+			<input checked="checked" id="tab1" type="radio" name="left" />
+			<input id="tab2" type="radio" name="left" />
+			<input id="tab3" type="radio" name="left" />
+			
+			  <nav>
+			    <ul>
+			      <li class="tab1"><label for="tab1">Poem (Petrocchi Edition)</label></li>
+			      <li class="tab2"><label for="tab2">Mandelbaum</label></li>
+			      <li class="tab3"><label for="tab3">Longfellow</label></li>
+			    </ul>
+			  </nav>
+			  
+			  <section>
+			    <div class="tab1">
+			      	
+		<div class="translation-entry">
+            <p> <span class="ln">1</span> ¶ Thaduent of our lord
+                folio primo
+                The natyuyte of our lord
+                foure
+                The circumcysyon of our lord
+                fyue
+                The feste of thepyphanye
+                eyghte
+                Septuagesme
+                enleuen
+                Sexagesme folio
+                enleuen
+                Quinquagesme
+                twelue
+                Quadragesme
+                twelue
+                The ymbre dayes
+                thyrtene
+                The passyon of our lord
+                fourtene
+                The resurrexyon
+                eyghtene
+                The letanyes more &amp; lasse
+                xxi
+                The ascencion of our lord
+                xxiij
+                The feste of whytsontyde
+                xxvj
+                The feste of corpus xpristi
+                thyrty
+                The feste of dedycacion
+                two &amp; thyrty
+                The hystorye of adam
+                seuen &amp; thyrty
+                The historye of Noe
+                nyne &amp; thyrty
+                The hystorye of abraham
+                fourty
+                The hystorye of ysaac &amp; his two sones Esau &amp; Iacob
+                four &amp; fourty
+                Thystorye of Ioseph
+                eyght &amp; fourty
+                Thystorye of moyses
+                foure &amp; fyfty
+                The ten commaundementes
+                syxty
+                Of Iosue
+                thre score and thre
+                The fyrst feryal sonday after trynyte sonday is redde thystoryes of samuel the prophete &amp; of saul the first kynge of Israhel
+                folio thre score and thre
+                Thystorye of dauyd kyng
+                lxviij
+                Of Salamon
+                lxxj
+                Of Roboas
+                thre score &amp; fourtene
+                Of Iob
+                thre score &amp; fourtene
+                Thystorye of thoby
+                thre score &amp; fyftene
+                Thystorye of Iudyth
+                four score
+                
+                ¶ Of sayntes
+                Saynt andrewe
+                four score and thre
+                Saynt nycholas
+                four score &amp; seuen
+                The concepcion of our lady
+                lxxxxj
+                Saynt gencyen Fulcyen and victrice
+                four score and twelue
+                Saynt lucye
+                four score &amp; thyrtene
+                Saynt nychase
+                four score &amp; fourtene
+                Saynt Thomas thappostle
+                lxxxxiiii
+                Saynt anastase
+                four score &amp; seuentene
+                Saynt eugene
+                four score &amp; seuentene
+                Saynt stephen prothomarter
+                lxxxxviii
+                Saynt Iohan theuangelist
+                an hondred
+                The Innocentes
+                an hondred &amp; thre
+                Saynt thomas of caunterburye
+                Cv
+                Of saynt syluester
+                an hondred viii
+                Saynt paule the first hermyte
+                Cx
+                Of saynt Remyge
+                Cxi
+                Of saynt hylarye
+                a hondred &amp; twelue
+                Of saynt fyrmyn
+                a hondred &amp; twelue
+                Of saynt machayre
+                Cxiii
+                Of saynt felyx
+                a hondred &amp; thyrtene
+                Of saynt marcel
+                a hondred &amp; fourtene
+                Of saynt anthonye
+                a hondred &amp; xiiii
+                Of saynt fabyan
+                a hondred &amp; syxtene
+                Of saynt sebastyen
+                a hondred &amp; xvi
+                Of saynt agnes
+                a hondred &amp; xix
+                Of saynt vyncent
+                Cxxi
+                Of saynt basylle
+                Cxxii
+                Of saynt Iohan thamener
+                Cxxiiii
+                The conuersyon of saynt poule
+                Cxxvii
+                Saynt paulyne the wydowe
+                Cxxviii
+                Saynt Iulyen the bysshop
+                Cxxix
+                Of saynt Ignacyen
+                Cxxxi
+                The purificacion of our lady
+                Cxxxii
+                Of saynt blase
+                an hondred xxxiiii
+                Of saynt agathe
+                an hondred xxxv
+                Of saynt amande
+                an hondred xxxvii
+                Of saynt vedast
+                an hondred xxxvii
+                Of saynt valentyn
+                Cxxxvii
+                Of saynt Iulyan virgyn
+                Cxxxviii
+                Of saynt peeter in cathedra
+                Cxxxix
+                Saynt mathye thappostle
+                Cxl
+                Saynt gregory pope
+                Cxlij
+                Saynt longyus
+                Cxliiij
+                Saynt maure
+                Cxlv
+                Of saynt patryke
+                Cxlv
+                Of saynt benette
+                Cxlvj
+                Of saynt cutberde
+                Cxlix
+                Thanunciacion of our lady
+                Cl
+                Of saynt second
+                an hondred li
+                Of saynt marye egypcyen
+                Clij
+                Of saynt ambrose
+                Cliij
+                Of saynt alphey
+                Clvi
+                Of saynt george
+                Clvij
+                Of saynt marke
+                an hondred lix
+                Of saynt marcellyn
+                Clxj
+                Of saynt Vytal
+                Clxi
+                Saynt peter of melane
+                Clxij
+                Of saynt phelyp
+                an hondred lxv
+                Of saynt Iames the lasse
+                Clxv
+                Thynuencyon of tholy crosse
+                Clxvij
+                Of saynt Iohan portlatyn
+                Clxviij
+                Of saynt gordyan
+                an hondred lxix
+                Of sayntes nereye &amp; achilleye
+                Clxix
+                Of saynt pancrace
+                an hondred lxx
+                Of saynt vrban
+                an hondred lxxj
+                Of saynt parnel
+                an hondred lxxj
+                Of saynt dunston
+                an hondred lxxj
+                Saint austyn that brought crystendom in to englond
+                an hondre lxxiii
+                Of saynt germayn
+                an hondred lxxv
+                Of saynt Peter deaken
+                Clxxvij
+ <pb/> 
+                Sayntes pryme &amp; felycyan
+                Clxxvij
+                Of saynt bernabe thappostle
+                Clxxviij
+                Saynt vyte and mo•este
+                Clxxix
+                Saynt quyryne &amp; Iulytte
+                Clxxx
+                Of saynt maryne
+                Clxxxj
+                Saynt geruase &amp; prothase
+                Clxxxj
+                Saint edward kyng &amp; mar
+                Clxxxij
+                Saynt albon &amp; amphiabel
+                Clxxxiij
+                The natyuyte of saynt Iohan baptest folio
+                an hondred four score &amp; seuen
+                Of saynt loye
+                Clxxxix
+                Of saynt wyllyam
+                an hondred lxxxx
+                Of saynt eutrope
+                Clxxxx
+                Of saynt marcyal
+                Clxxxxij
+                Of saynt geneuefe
+                Clxxxxiiij
+                Of saynt maturyne
+                Clxxxxviij
+                Of saynt vyctor
+                Clxxxxix
+                Saynt Iohan and paule
+                Ccj
+                Saynt leon
+                CCj
+                Saynt peter thappostle
+                CCij
+                Saynt paule thappostle
+                CCv
+                The seuen brethern
+                two hondred x
+                Saynt theodora
+                two hondred x
+                Of saynt swythyn
+                CCxi
+                The translacyon of saynt Thomas of caunterburye
+                CCxij
+                Of saynt kenelme
+                CCxiij
+                Of saynt margarete
+                CCxiiij
+                Saynt marye magdalene
+                CCxvj
+                Of saynt appollynare
+                CCxix
+                Of saynt cristyne
+                CCxx
+                Saynt Iames the more
+                CCxxj
+                Saynt cristofore
+                CCxxiiij
+                The seuen slepars
+                CCxxvj
+                Of saynt nazaryen
+                CCxxviij
+                Of saynt felyx pope
+                CCxxix
+                Sayntes symplycyen faustyn and •eatry•e
+                two hondred xxix
+                Of saynt martha
+                CCxxx
+                Saynt abdon and sennen
+                CCxxxj
+                Saynt germayn
+                CCxxxj
+                Of saynt Eusebe
+                CCxxxiij
+                The seuen machabees
+                CCxxxiiij
+                Of saynt peter ad vincula
+                CCxxxiiij
+                Saynt stephen the pope
+                CCxxxvj
+                Saynt stephen prothomar
+                ijCxxxvij
+                Of saynt domynyk
+                CCxxxviij
+                Saynt syxte pope
+                CCxliiij
+                Of saynt donate
+                CCxlv
+                Of saynt cyryake
+                CCxlv
+                Of saynt laurence
+                CCxlvi
+                Of saynt ypolyte
+                CCli
+                Thassumpcion of our lady
+                CClij
+                Of saynt Rocke
+                CClxij
+                Of saynt bernard
+                CClxiiij
+                Of saynt thymothe
+                CClxviij
+                Of saynt symphoryen
+                CC•xi•
+                Of saynt bartylm•we
+                CClx••
+                Saynt austyn doctour
+                CClxxij
+                Decollacyon of saynt Iohan 〈…〉 folio
+                two hondred lxxvij
+                Of saynt felix preste
+                CClxxix
+                Of saynt sauyen
+                CClxxx
+                Of saynt lowe or lupe
+                CC•xxxj
+                Of saynt mamertyn
+                CClxxx•j
+                Of saynt Gyles
+                CClxxx•ij
+                The natyuyte of our lady
+                CClxxxiiij
+                Of saynt adryan marter
+                CClxxxvij
+                Of saynt gorgone
+                two hondred •xxx•x
+                Of saynt pro•he and Iacyncte and eugene
+                two hondred lxxxix
+                Thexaltacyon of the holy crosse folio
+                two hondred lxxxx
+                Of saynt Iohan crisostom
+                CClxxxxij
+                Of saynt cornelye and cypryan folio
+                two hondred four score &amp; xiij
+                Of saynt Eufemye
+                CClxxxxiiij
+                Of saynt Lambert
+                CC•xxxxv
+                Of saynt mathewe
+                CClxxxxv
+                Of saynt mauryce
+                CClxxxxix
+                Of saint Iustyn
+                thre hondred &amp; one
+                Of saynt cosme and Damyan folio
+                thre hondred and thre
+                Saynt forsyn
+                thre hondred &amp; foure
+                Saynt mychel
+                thre hondred &amp; fyue
+                Saynt Iherome
+                thre hondred ix
+                Saynt remyge
+                thre hondred xj
+                Saynt logyer
+                thre hondred xij
+                Saynt Fraunsoys
+                thre hondred x•j
+                Saynt pelagyen
+                thre hondred xvij
+                Saynt margarite otherwyse sayd Pelagyen
+                thre hondred &amp; eyghtene
+                Saynt Thaysys
+                thre hondred xix
+                Saynt denyse
+                thre hondred xx
+                Saynt calixte
+                thre hondred xxij
+                Saynt edward kyng
+                CCC•xij
+                Saynt luke
+                thre hondred xxxij
+                Saint crisant &amp; daria
+                CCCxxxv
+                〈◊〉 vrsula
+                thre hondred xxxvj
+                Saynt cryspyn and cryspynyan folio
+                thre hondred &amp; xxxviij
+                Saint symond &amp; Iude
+                CCCxxxviij
+                Saynt quyntyn
+                thre hondred xlj
+                Saynt eustace
+                thre hondred xlj
+                Alle halowes
+                thre hondred xlv
+                Cōmemoracion of sowles
+                CCCxlviij
+                Saynt wenefrede
+                thre hondred liij
+                Saynt Leonard
+                thre hondred &amp; liiij
+                The iiij crowned marters
+                CCClv
+                Saynt theodore
+                thre hondred lv 
+
+<pb/>
+                Saynt martyn
+                CCClvj
+                Saynt bryce
+                CCClix
+                Saynt elysabeth
+                CCClxxj
+                Saynt edmund bisshop
+                CCClxxiiij
+                Saynt hughe
+                CCClxxvi
+                Saynt edmund kyng
+                CCClxxvij
+                Saynt cecyle
+                CCClxxviij
+                Saynt clemente
+                CCClxxix
+                Saynt grysogone
+                CCClxxxiij
+                Saynt katheryne
+                CCClxxxiiij
+                Saynt saturnyne
+                CCClxxxx
+                Saynt Iames the marter
+                iiiClxxxxi
+                The venerable bede
+                CCClxxxxij
+                Saynt dorathe
+                CCClxxxxiij
+                Saynt brandon
+                CCClxxxxiiij
+                Saynt erkenwolde
+                CCClxxxxix
+                Saynt pastour
+                four hondred
+                Abbot Iohan
+                foure hondred
+                Abbot moyses
+                four hondred &amp; one
+                Saynt arsenyen
+                four hondred &amp; one
+                Aabot agathon
+                four hondred &amp; two
+                Balaam &amp; Iosaphat
+                iiiiCiiij
+                Pelagyen and thystorye of the lombardes
+                four hondred and eyght
+                Saynt symeon
+                iiiiCxv
+                Saynt polycarpe
+                iiiiCxvj
+                Saynt quyryace
+                iiiiCxvij
+                Saynt thomas dalquyne
+                iiiiCxviij
+                Saynt gayus
+                iiiiCxx
+                Saynt arnolde
+                iiiiCxx
+                Saynt Turyen
+                iiiiCxxiij
+                Saynt fyacre
+                iiiiCxxiij
+                Saynt Iustyne
+                iiiiCxxiiij
+                Saynt demetryen
+                iiiiCiiij
+                Saynt rigoberte
+                iiiiCxxv
+                Saynt laudry
+                iiiiCxxvi
+                Saynt mellonyn
+                iiiiCxxvi
+                Saynt yues
+                iiiiCxxvij
+                Saynt moraunt
+                iiiiCxxix
+                Saynt lowes of fraūce
+                iiijCxxxj
+                Saynt lowes bysshop
+                iitiCxxxij
+                Saynt audegonde
+                iiiiCxxxiij
+                Saynt aulbyne
+                iiiiCxxxiiij
+                Thystorye of the masse
+                iiiiCxxxv
+                The twelue artycles of the feythe folio
+                four hondred &amp; thre &amp; fourty
+                
+                ¶Another table by letter
+                Aduent folio
+                Primo
+                Ascencyon of our lord
+                xxiij
+                Adam
+                seuen and thyrty
+                Abraham
+                fourty
+                Andrewe
+                fo•• score and thre
+                Anastase
+                four s••re &amp; seuentene
+                Anthonye
+                an ho••red &amp; fourtene
+                Agnes
+                an hondred and nyntene
+                Agathe
+                Cxxxv
+                Amande
+                an hondred xxxvii
+                Anūciacion of our lady
+                Cl
+                Ambrose
+                Cliij
+                Alphey
+                Clvi
+                Achylleye
+                Clxix
+                Austyn that brought in to englonde crystendom
+                an hondred lxxiij
+                Albone and Amphyabel
+                an hondred lxxxiij
+                •ppollynare
+                CCxix
+                Abdon
+                two hondred xxxj
+                Assumpcion of our lady
+                CClii
+                Austyn the doctour
+                CClxxij
+                Adryan marter
+                CClxxxvij
+                Alle halowes
+                iiiCxlv
+                Arsenyen
+                four hondred &amp; one
+                Agathon abbot
+                four hondred &amp; two
+                Arnolde
+                four hondred and twenty
+                Audegonde
+                iiiiCxxxiij
+                Aulbyne
+                iiiiCxxxiiij
+                Artycles of the feythe
+                iiiiCxliij
+                Basylle
+                Cxxij
+                Blase
+                Cxxxiiij
+                Benette
+                Cxlvi
+                Barnabe
+                Clxxviij
+                Brethern seuen
+                CCx
+                Beatryce
+                CCxxix
+                Bernarde
+                CClxiiij
+                Bartylmewe
+                CClxix
+                Bryce
+                CCClix
+                Bede
+                CCClxxxxij
+                Brandon
+                CCClxxxxiij
+                Balaam
+                CCCCiiij
+                Circuncisyon
+                fyue
+                Corpus xpristy
+                xxx
+                Commaundementes ten
+                lx
+                Concepcyon of our lady
+                lxxxxi
+                Conuercyon of saynt poule
+                Cxxvij
+                Cutberd
+                Cxlix
+                Crystyne
+                CCxx
+                Crystofore
+                CCxxiiij
+                Cyryake
+                CC••••
+                Cornelye &amp; cypryan
+                CClxx•••••
+                Cosme
+                thre hondred &amp; thre
+                Calyxte
+                CCCxxi•
+                Crysaunt
+                CCCxx•v
+                Cryspyn &amp; cryspynyan
+                CCCxxxviij
+<pb/>
+                Commemoracion of al sowles folio
+                thre hondred xlviij
+                Crowned martes four
+                thre hondred lv
+                Cecylye
+                thre hondred lxxviij
+                Clemente
+                thre hondred lxxix
+                Dedicacion
+                two &amp; thirty
+                Dauyd kyng
+                lxviij
+                Dunston
+                an hondred thre score xj
+                Domynyk
+                two hondred xxxviij
+                Donace
+                two hondred xlv
+                Decolacion of saynt Iohan
+                CClxxvij
+                Damyan
+                thre hondred iij
+                Denyse
+                thre hondred xx
+                Darya
+                thre hondred xxxv
+                Dorathe
+                thre hondred four score xiij
+                Demetryen
+                four hondred and xxiiij
+                Epyphanye folio
+                viij
+                Esau
+                four and fourty
+                Eugene
+                four score and xvij
+                Edward kyng &amp; marter
+                Clxxxij
+                Eutrope
+                an hondred four score &amp; ten
+                Eusebe
+                two hondred and xxxiij
+                Exaltacion of the crosse
+                CClxxxx
+                Eufemye
+                two hondred lxxxxiiij
+                Edward kyng &amp; confessour
+                CCCxxij
+                Eustace
+                thre hondred and xl
+                Elyzabeth
+                thre hondred thre score xj
+                Edmund bisshop
+                thre hondred lxxiiij
+                Edmund kyng
+                thre hondred lxxvij
+                Erkenwolde
+                thre hondred lxxxxix
+                Fulcyen
+                foure score &amp; twelue
+                Fyrmyn
+                an hondred and twelue
+                Felyx
+                an hondred and thyrtene
+                Fabyan
+                an hondred and syxtene
+                Felycyan
+                an hondred lxxvij
+                Felix pope
+                two hondred xxix
+                Faustyn
+                two hondred xxix
+                Felyx preest
+                two hondred lxxix
+                Forsyn
+                thre hondred and foure
+                Fraunsoys
+                thre hondred &amp; twelue
+                Fyacre
+                four hondred &amp; xxiij
+                Gencien folio
+                lxxxxij
+                Gregorye
+                an hondred xlij
+                George
+                an hondred &amp; seuen &amp; fyfty
+                Gordyan
+                an hondred thre score ix
+                Germayn
+                an hondred thre score xv
+                Ger••se
+                an hondred four score &amp; one
+                Genouefe
+                an hondred lxxxxiiij
+                Germayn
+                two hondred xxxj
+                Gyles
+                two hondred lxxxiij
+                Gorgone
+                two hondred lxxxix
+                Grisogone
+                thre hondred lxxxiij
+                Ga•us
+                four hondred &amp; twenty
+                Hilayre
+                Cxij
+                Hughe
+                thre hondred lxxvj
+                Iacob folio
+                xliiij
+                Ioseph folio
+                xlviij
+                Iosue
+                thre score and thre
+                Iob folio
+                thre score and fourtene
+                Iudyth folio
+                foure sco•e
+                Iohan theuangelist
+                an hondred
+                Innocentes
+                an hondred &amp; thre
+                Iohan thamener
+                an hondred xxiiij
+                Iulyen the bysshop
+                Cxxix
+                Ignacyen
+                an hondred xxx•
+                Iulyane vyrgyn
+                Cxxxviij
+                Iames the lasse
+                an hondred lxv
+                Inuencyon of the crosse
+                Clx•ij
+                Iohan portlatyn
+                an hondred lxviij
+                Iulytte
+                an hondred &amp; four score
+                Iohan the baptyst
+                Clxxxvij
+                Iohan &amp; Paule
+                two hondred v
+                Iames the more
+                two hondred xxj
+                Inuēcion of saynt stephen
+                ijCxxxvij
+                Iacyncte
+                two hondred lxxxix
+                Iohan crisostom
+                CClxxxxij
+                Iustyn
+                thre hondred &amp; one
+                Iherome
+                thre hondred ix
+                Iude
+                thre hondred xxxviij
+                Iames the marter
+                CCClxxxxj
+                Iohan thabbot
+                foure hondred
+                Iosaphat
+                four hondred &amp; foure
+                Iustyne
+                four hondred &amp; fourtene
+                Kenelme
+                CCxiij
+                Katheryne
+                thre hondred lxxxiiij
+                Letanies more &amp; lesse
+                xxj
+                Lucye vyrgyne
+                lxxxxiij
+                Longyus
+                an hondred xliiij
+                Loye
+                an hondred four score &amp; ix
+                Loen
+                two hondred and one
+                Laurence
+                two hondred fourty &amp; v•
+                Lowe or lupe
+                two hondred lxxxj
+                Lambert
+                two hondred four score xvj
+                Logyer
+                thre hondred and twelue
+                Luke
+                thre hondred xxxi
+                Leonard
+                thre hondred &amp; four &amp; fyfty
+                Laudry
+                four hondyed xxvi
+                Lowes kynge of Fraun•e folio
+                four hondred and thyrty
+                Lowes bysshop
+                four hondred xxxij
+<pb/>
+                Moyses folio
+                liiij
+                Machayre
+                Cxiij
+                Marcel
+                Cxiiij
+                Mathye appostle
+                Cxl
+                Maure
+                Cxlv
+                Marye egypcyen
+                Clij
+                Marke
+                Clix
+                Marcellyn
+                Cxlj
+                Modest
+                Clxix
+                Maryne
+                Clxxxj
+                Marcyal
+                Clxxxxij
+                Maturyn
+                Clxxxxviij
+                Margarete
+                CCxiiij
+                Marye magdalene
+                CCxvj
+                Martha
+                CCxxx
+                Machabees
+                CCxxxiiij
+                Mamertyn
+                CClxxxij
+                Mathewe
+                CClxxxxv
+                Mauryce
+                CClxxxxix
+                Mychel
+                CCCv
+                Margarete alias pelagyen
+                CCCxviij
+                Martyn
+                CCClvj
+                Moyses thabbot
+                CCCCj
+                Mellonyn
+                CCCCxxvj
+                Moraunt
+                CCCCxxix
+                Masse thexposycyon
+                CCCCxxxv
+                Natyuyte of our lord
+                iiij
+                Noe
+                xxxix
+                Nycholas
+                lxxxvij
+                Nychase
+                lxxxxiiij
+                Nereye
+                Clxix
+                Natyuyte of saynt Iohan baptest
+                Clxxxxvij
+                Nazaryen
+                CCxxviij
+                Natyuyte of our lady
+                CClxxxiiij
+                Passion of our lord
+                xiiij
+                Paule the fyrst hermyte
+                Cx
+                Paulyne
+                Cxxviij
+                Purifycacyon of our lady
+                Cxxxij
+                Peter in cathedra
+                Cxxxix
+                Patryk
+                Cxlv
+                Peter of melan
+                Clxij
+                Phelyp thappostle
+                Clxv
+                Pancrace
+                Clxx
+                Pernel
+                Clxxj
+                Peter deken
+                Clxxvij
+                Pryme
+                Clxxvij
+                Prothase
+                Clxxxj
+                Peter thappostle
+                CCij
+                Paule
+                CCv
+                Peter ad vincula
+                CCxxiiij
+                Prothe
+                CClxxxix
+                Pelagyen
+                CCCxvij
+                Pastour thabbot
+                CCCC
+                Pelagyen pope
+                CCCCviij
+                Polycarpe
+                CCCCxvj
+                Quynquagesme
+                xij
+                Quadragesme
+                xij
+                Quyrynn
+                Clxxx
+                Quyntyn
+                CCCxlj
+                Quiriace
+                CCCCxvij
+                Resurrexion of our lord
+                xviij
+                Roboas
+                lxxiiij
+                Remyge
+                Cxj
+                Rocke
+                CClxij
+                Remyge
+                CCCxj
+                Rygobert
+                four hondred xxv
+                Septuagesme
+                xj
+                Sexagesme
+                xj
+                Samuel
+                lxiij
+                Saul folio
+                lxiij
+                Salamon
+                lxxj
+                Stephen prothomarter
+                lxxxxviij
+                Syluester
+                Cviij
+                Sebasteyn
+                Cxvj
+                Seconde
+                an hondred lj
+                Seuen brethern
+                two hondred x
+                Swythyn
+                two hondred xj
+                Seuen slepars
+                two hondred xxvj
+                Symplycyen
+                two hondred xxix
+                Sauien
+                two hondred xxxj
+                Stephen the pope
+                two hondred xxxvj
+                Syxte the pope
+                two hondred xliiij
+                Symphoryen
+                two hondred lxix
+                Sauyen
+                two hondred lxxx
+                Symond thappostle
+                iijCxxxviij
+                Saturnyne
+                thre hondred lxxxx
+                Symeon marter
+                four honred xv
+                Thoby folio
+                lxxv
+                Thomas thappostle
+                lxxxxiiij
+                Thomas of caunterburye
+                Cv
+                Theodora
+                two hondred x
+                Translacion of hym
+                two hondred xij
+                Tymothe
+                two hondred lxviij
+                Thaysys
+                thre hondred xix
+                Theodore
+                thre hondred lv
+                Thomas dalquyne
+                four hondred xviij
+                Turyen
+                four hondred xxij
+<pb/>
+                Uytryce
+                lxxxxij
+                Vyncente
+                Cxxj
+                Vedaste
+                Cxxxvij
+                Valentyn
+                Cxxxvij
+                Vytal
+                Clxj
+                Vrban
+                Clxxj
+                Vyte
+                Clxxix
+                Vyctor
+                Clxxxxix
+                Vrsula
+                CCCxxxvj
+                Whytsontyde
+                xxvj
+                Wyllyam
+                Clxxxx
+                Wenefrede
+                CCCliij
+                Ymber dayes folio
+                xiij
+                Ysaac folio
+                xliiij
+                Ypolyte folio
+                CClj
+                Yues folio
+                CCCCxxvij
+                ¶ Explicit  
+                <!--This is the end of the table of contents- be sure to go into TEI and see how the tagging shoul work here there should definitely be notes ob this -->
+            </p> 
+ <pb/>
+            <p>THe tyme of thaduēt or comyng of our lord in to this world is halowed in holy chirche the tyme of iiij wekes in betokenyng of iiij dyuerse comynges / The j was whan he cā &amp; apierid in humayn nature &amp; flessh The ij is in the herte &amp; cōscyence / The iij is at the deth / The iiij is at last Iugemēt / The last weke may vnnethe be accōplissed / For the glorye of the sayntes whiche shal be yeuen at the last comyng shal neuer ende ne fynysshe / And to this signyfyaūce ye first responce of the first weke of aduent hath iiij verse to rekene Gloria patri &amp; filio for one / to the reporte of the iiij wekis / and how be it that there be iiij comynges of our lord / yet ye chirche maketh menciō in especial but of tweyne / yt is to wete of that he cā in humayne nature to the world / &amp; of yt he cometh to the Iugemēt &amp; dome / as it apperith in thoffyce of the chirche of this tyme / And therfor the fastynges that ben in this tyme ben of gladnes and of Ioye in one partie / &amp; that other partie is in bitternesse of herte / By cause of the comyng of our lorde in our nature humayne / they ben of Ioye &amp; gladnes / And by cause of the comyng at ye day of Iugemēt / they be of bitternes &amp; heuynes As towchyng the comyng of our lord in our bodyly flessh we may considre thre thynges of this comyng That is to wete thoportunyte / the necessyte / &amp; the vty / lyte / The oportunyte of comyng is takē by the reson of the man that first was vaynquysshyd in the lawe of nature of the defaulte of the knowlege of god / by whiche he fyll in to euyll errours / &amp; therfore he was cōstrayned to crye to god Illuīa oculos meos / yt is to saye lord gyue lyght to myn eyen After cam the la / we of god whiche hath gyuen cōmandement in whiche he hath ben ouercome of Impuissance / as first he hath cryed / ther is non yt fulfilleth but that comādeth for ther he is only taught / but not delyuerd fro synne ne holpē by grace / &amp; therfore he was cōstrayned to crye / ther laketh non to comande but ther is none that accōplisheth the cōmandement / Thēne cam the sone of god in tyme whā mā was vaynquysshid of ygnorance &amp; Impuissaūce / to ye yf he had so comē to fore / {per}auenture man myght saye yt by his owne merites he myght haue be saued / &amp; thus he had not be boūde to yeld thankes to god / The ij thynge yt is shewd vs of this comyng is the necessyte by reson of the tyme / of whiche thappostle poul speketh / ad galatas the iiij chapitre / At vbi venet plenitudo tem{per}is / whan the plenitude or ful tyme of the grace of god was ordeyned / thēne he sente his sone yt was god &amp; sone of the virgyne &amp; wyf / whiche was made subget to the lawe / To that yt they be subget to ye lawe he bought hem agayn &amp; were receyued sones of god by grace of adopcion / Now saith saynt austyn yt many demande why he cam not rather / he answerth that it was by cause that the plenytude of tyme was not come / whiche shold come by hym that all thynges were ordeyned &amp; made / &amp; after whan this plenitude of tyme cam / he cā that of tyme passed hath delyueryd vs To that we shal be delyueryd of tyme we shal come to hym / where as no tyme passeth / but is perpetuite / The iij thyng that is shewde to vs of this comyng is the vtylyte &amp; proufit that cometh for the cause of the hurte &amp; sekenes generall / For syth the maladye was general / the medecyne must be general / wherof saith saynt Austyn / that thenne cam the grete medecyn / whan the grete maladye was thurgh all the world wherof the holy chirche remembreth in vij Antemmis yt ben songen to fore the natyuyte of our lord where the maladye is shewd in diuerse maners / And for eche demādeth remedye of his maladye of the phisicyen For to fore the comyng of our lorde we were ygnorant / &amp; blynd bounden to payne {per}durable / bonde to the deuyll / Alyed to hym by euyll custome of synne / ywrapped in derkenes / &amp; dryuen out of our contrey and therfore we haue grete nede of a doctour or techer / of ayenbyar of a delyuerer / of a conduyter / of a lighter or Illuminer and of a Sauyour / ¶Therfore thenne that we were ignorant / we had nede that we were of hym taught and lerned / ¶And therfore we crye in the first Antheme O sapiencia que ex ore altissimi prodisti et cetera ¶O sapience souerayne /</p>
+           
+	
+				
+			    </div>
+			    <div class="tab2">
+			      	
+		<div class="translation-entry">
+			<p>When I had journeyed half of our life&#8217;s way,<br />
+I found myself within a shadowed forest,<br />
+for I had lost the path that does not stray.</p>
+<p>Ah, it is hard to speak of what it was,<br />
+that savage forest, dense and difficult,<br />
+which even in recall renews my fear:</p>
+<p>so bitter — death is hardly more severe!<br />
+But to retell the good discovered there,<br />
+I&#8217;ll also tell the other things I saw.</p>
+<p>I cannot clearly say how I had entered<br />
+the wood; I was so full of sleep just at<br />
+the point where I abandoned the true path.</p>
+<p>But when I&#8217;d reached the bottom of a hill —<br />
+it rose along the boundary of the valley<br />
+that had harassed my heart with so much fear —</p>
+<p>I looked on high and saw its shoulders clothed<br />
+already by the rays of that same planet<br />
+which serves to lead men straight along all roads.</p>
+<p>At this my fear was somewhat quieted;<br />
+for through the night of sorrow I had spent,<br />
+the lake within my heart felt terror present.</p>
+<p>And just as he who, with exhausted breath,<br />
+having escaped from sea to shore, turns back<br />
+to watch the dangerous waters he has quit,</p>
+<p>so did my spirit, still a fugitive,<br />
+turn back to look intently at the pass<br />
+that never has let any man survive.</p>
+<p>I let my tired body rest awhile.<br />
+Moving again, I tried the lonely slope —<br />
+my firm foot always was the one below.</p>
+<p>And almost where the hillside starts to rise —<br />
+look there! — a leopard, very quick and lithe,<br />
+a leopard covered with a spotted hide.</p>
+<p>He did not disappear from sight, but stayed;<br />
+indeed, he so impeded my ascent<br />
+that I had often to turn back again.</p>
+<p>The time was the beginning of the morning;<br />
+the sun was rising now in fellowship<br />
+with the same stars that had escorted it</p>
+<p>when Divine Love first moved those things of beauty;<br />
+so that the hour and the gentle season<br />
+gave me good cause for hopefulness on seeing</p>
+<p>that beast before me with his speckled skin;<br />
+but hope was hardly able to prevent<br />
+the fear I felt when I beheld a lion.</p>
+<p>His head held high and ravenous with hunger —<br />
+even the air around him seemed to shudder —<br />
+this lion seemed to make his way against me.</p>
+<p>And then a she-wolf showed herself; she seemed<br />
+to carry every craving in her leanness;<br />
+she had already brought despair to many.</p>
+<p>The very sight of her so weighted me<br />
+with fearfulness that I abandoned hope<br />
+of ever climbing up that mountain slope.</p>
+<p>Even as he who glories while he gains<br />
+will, when the time has come to tally loss,<br />
+lament with every thought and turn despondent,</p>
+<p>so was I when I faced that restless beast<br />
+which, even as she stalked me, step by step<br />
+had thrust me back to where the sun is speechless.</p>
+<p>While I retreated down to lower ground,<br />
+before my eyes there suddenly appeared<br />
+one who seemed faint because of the long silence.</p>
+<p>When I saw him in that vast wilderness,<br />
+&#8220;Have pity on me,&#8221; were the words I cried,<br />
+&#8220;whatever you may be — a shade, a man.&#8221;</p>
+<p>He answered me: &#8220;Not man; I once was man.<br />
+Both of my parents came from Lombardy,<br />
+and both claimed Mantua as native city.</p>
+<p>And I was born, though late, sub Julio,<br />
+and lived in Rome under the good Augustus —<br />
+the season of the false and lying gods.</p>
+<p>I was a poet, and I sang the righteous<br />
+son of Anchises who had come from Troy<br />
+when flames destroyed the pride of Ilium.</p>
+<p>But why do you return to wretchedness?<br />
+Why not climb up the mountain of delight,<br />
+the origin and cause of every joy?&#8221;</p>
+<p>&#8220;And are you then that Virgil, you the fountain<br />
+that freely pours so rich a stream of speech?&#8221;<br />
+I answered him with shame upon my brow.</p>
+<p>&#8220;O light and honor of all other poets,<br />
+may my long study and the intense love<br />
+that made me search your volume serve me now.</p>
+<p>You are my master and my author, you —<br />
+the only one from whom my writing drew<br />
+the noble style for which I have been honored.</p>
+<p>You see the beast that made me turn aside;<br />
+help me, o famous sage, to stand against her,<br />
+for she has made my blood and pulses shudder,&#8221;</p>
+<p>&#8220;It is another path that you must take,&#8221;<br />
+he answered when he saw my tearfulness,<br />
+&#8220;if you would leave this savage wilderness;</p>
+<p>the beast that is the cause of your outcry<br />
+allows no man to pass along her track,<br />
+but blocks him even to the point of death;</p>
+<p>her nature is so squalid, so malicious<br />
+that she can never sate her greedy will;<br />
+when she has fed, she&#8217;s hungrier than ever.</p>
+<p>She mates with many living souls and shall<br />
+yet mate with many more, until the Greyhound<br />
+arrives, inflicting painful death on her.</p>
+<p>That Hound will never feed on land or pewter,<br />
+but find his fare in wisdom, love, and virtue;<br />
+his place of birth shall be between two felts.</p>
+<p>He will restore low-lying Italy for which<br />
+the maid Camilla died of wounds,<br />
+and Nisus, Turnus, and Euryalus.</p>
+<p>And he will hunt that beast through every city<br />
+until he thrusts her back again to Hell,<br />
+for which she was first sent above by envy.</p>
+<p>Therefore, I think and judge it best for you<br />
+to follow me, and I shall guide you, taking<br />
+you from this place through an eternal place,</p>
+<p>where you shall hear the howls of desperation<br />
+and see the ancient spirits in their pain,<br />
+as each of them laments his second death;</p>
+<p>and you shall see those souls who are content<br />
+within the fire, for they hope to reach —<br />
+whenever that may be — the blessed people.</p>
+<p>If you would then ascend as high as these,<br />
+a soul more worthy than I am will guide you;<br />
+I&#8217;ll leave you in her care when I depart,</p>
+<p>because that Emperor who reigns above,<br />
+since I have been rebellious to His law,<br />
+will not allow me entry to His city.</p>
+<p>He governs everywhere, but rules from there;<br />
+there is His city, His high capital:<br />
+o happy those He chooses to be there!&#8221;</p>
+<p>And I replied: &#8220;O poet — by that God<br />
+whom you had never come to know — I beg you,<br />
+that I may flee this evil and worse evils,</p>
+<p>to lead me to the place of which you spoke,<br />
+that I may see the gateway of Saint Peter<br />
+and those whom you describe as sorrowful.&#8221;</p>
+<p>Then he set out, and I moved on behind him.</p>
+		</div>
+		
+		
+			    </div>
+			    <div class="tab3">
+  			    	
+		<div class="translation-entry">
+			<p>MIDWAY upon the journey of our life<br />
+I found myself within a forest dark,<br />
+For the straightforward pathway had been lost.</p>
+<p>Ah me! how hard a thing it is to say<br />
+What was this forest savage, rough, and stern,<br />
+Which in the very thought renews the fear.</p>
+<p>So bitter is it, death is little more;<br />
+But of the good to treat, which there I found,<br />
+Speak will I of the other things I saw there.</p>
+<p>I cannot well repeat how there I entered,<br />
+So full was I of slumber at the moment<br />
+In which I had abandoned the true way.</p>
+<p>But after I had reached a mountain&#8217;s foot,<br />
+At that point where the valley terminated,<br />
+Which had with consternation pierced my heart,</p>
+<p>Upward I looked, and I beheld its shoulders<br />
+Vested already with that planet&#8217;s rays<br />
+Which leadeth others right by every road.</p>
+<p>Then was the fear a little quieted<br />
+That in my heart&#8217;s lake had endured throughout<br />
+The night, which I had passed so piteously</p>
+<p>And even as he, who, with distressful breath,<br />
+Forth issued from the sea upon the shore,<br />
+Turns to the water perilous and gazes;</p>
+<p>So did my soul, that still was fleeing onward,<br />
+Turn itself back to re-behold the pass<br />
+Which never yet a living person left.</p>
+<p>After my weary body I had rested,<br />
+The way resumed I on the desert slope,<br />
+So that the firm foot ever was the lower.</p>
+<p>And lo! almost where the ascent began,<br />
+A panther light and swift exceedingly,<br />
+Which with a spotted skin was covered o&#8217;er!</p>
+<p>And never moved she from before my face,<br />
+Nay, rather did impede so much my way,<br />
+That many times I to return had turned.</p>
+<p>The time was the beginning of the morning,<br />
+And up the sun was mounting with those stars<br />
+That with him were, what time the Love Divine</p>
+<p>At first in motion set those beauteous things;<br />
+So were to me occasion of good hope,<br />
+The variegated skin of that wild beast,</p>
+<p>The hour of time, and the delicious season;<br />
+But not so much, that did not give me fear<br />
+A lion&#8217;s aspect which appeared to me.</p>
+<p>He seemed as if against me he were coming<br />
+With head uplifted, and with ravenous hunger,<br />
+So that it seemed the air was afraid of him;</p>
+<p>And a she-wolf, that with all hungerings<br />
+Seemed to be laden in her meagreness,<br />
+And many folk has caused to live forlorn!</p>
+<p>She brought upon me so much heaviness,<br />
+With the affright that from her aspect came,<br />
+That I the hope relinquished of the height.</p>
+<p>And as he is who willingly acquires,<br />
+And the time comes that causes him to lose,<br />
+Who weeps in all his thoughts and is despondent,</p>
+<p>E&#8217;en such made me that beast withouten peace,<br />
+Which, coming on against me by degrees<br />
+Thrust me back thither where the sun is silent</p>
+<p>While I was rushing downward to the lowland,<br />
+Before mine eyes did one present himself,<br />
+Who seemed from long-continued silence hoarse.</p>
+<p>When I beheld him in the desert vast,<br />
+&#8220;Have pity on me,&#8221; unto him I cried,<br />
+&#8220;Whiche&#8217;er thou art, or shade or real man!&#8221;</p>
+<p>He answered me: &#8220;Not man; man once I was,<br />
+And both my parents were of Lombardy,<br />
+And Mantuans by country both of them.</p>
+<p><em>Sub Julio</em> was I born, though it was late,<br />
+And lived at Rome under the good Augustus,<br />
+During the time of false and Iying gods.</p>
+<p>A poet was I, and I sang that just<br />
+Son of Anchises, who came forth from Troy,<br />
+After that Ilion the superb was burned</p>
+<p>But thou, why goest thou back to such annoyance?<br />
+Why climb&#8217;st thou not the Mount Delectable<br />
+Which is the source and cause of every joy?&#8221;</p>
+<p>Now, art thou that Virgilius and that fountain<br />
+Which spreads abroad so wide a river of speech?&#8221;<br />
+I made response to him with bashful forehead.</p>
+<p>&#8220;O, of the other poets honour and light,<br />
+Avail me the long study and great love<br />
+That have impelled me to explore thy volume!</p>
+<p>Thou art my master, and my author thou,<br />
+Thou art alone the one from whom I took<br />
+The beautiful style that has done honour to me.</p>
+<p>Behold the beast, for which I have turned back;<br />
+Do thou protect me from her, famous Sage,<br />
+For she doth make my veins and pulses tremble.&#8221;</p>
+<p>&#8220;Thee it behoves to take another road,&#8221;<br />
+Responded he, when he beheld me weeping,<br />
+&#8220;If from this savage place thou wouldst escape;</p>
+<p>Because this beast, at which thou criest out,<br />
+Suffers not any one to pass her way,<br />
+But so doth harass him, that she destroys him;</p>
+<p>And has a nature so malign and ruthless,<br />
+That never doth she glut her greedy will,<br />
+And after food is hungrier than before.</p>
+<p>Many the animals with whom she weds,<br />
+And more they shall be still, until the Greyhound<br />
+Comes, who shall make her perish in her pain.</p>
+<p>He shall not feed on either earth or pelf,<br />
+But upon wisdom, and on love and virtue;<br />
+&#8216;Twixt Feltro and Feltro shall his nation be;</p>
+<p>Of that low Italy shall he be the saviour,<br />
+On whose account the maid Camilla died,<br />
+Euryalus, Turnus, Nisus, of their wounds;</p>
+<p>Through every city shall he hunt her down,<br />
+Until he shall have driven her back to Hell,<br />
+There from whence envy first did let her loose.</p>
+<p>Therefore I think and judge it for thy best<br />
+Thou follow me, and I will be thy guide,<br />
+And lead thee hence through the eternal place,</p>
+<p>Where thou shalt hear the desperate lamentations,<br />
+Shalt see the ancient spirits disconsolate,<br />
+Who cry out each one for the second death;</p>
+<p>And thou shalt see those who contented are<br />
+Within the fire, because they hope to come,<br />
+Whene&#8217;er it may be, to the blessed people;</p>
+<p>To whom, then, if thou wishest to ascend,<br />
+A soul shall be for that than I more worthy;<br />
+With her at my departure I will leave thee;</p>
+<p>Because that Emperor, who reigns above,<br />
+In that I was rebellious to his law,<br />
+Wills that through me none come into his city.</p>
+<p>He governs everywhere and there he reigns;<br />
+There is his city and his lofty throne;<br />
+O happy he whom thereto he elects!&#8221;</p>
+<p>And I to him: &#8220;Poet, I thee entreat,<br />
+By that same God whom thou didst never know,<br />
+So that I may escape this woe and worse,</p>
+<p>Thou wouldst conduct me there where thou hast said,<br />
+That I may see the portal of Saint Peter,<br />
+And those thou makest so disconsolate.&#8221;</p>
+<p>Then he moved on, and I behind him followed.</p>
+		</div>
+		
+		
+			    </div>
+			  </section>
+		  
+		</div>
+		
+		<!-- right side -->
+		
+		<div class="translation-box-2">
+			
+			<input id="tab4" type="radio" name="right" />
+			<input checked="checked" id="tab5" type="radio" name="right" />
+			<input id="tab6" type="radio" name="right" />
+			
+			  <nav>
+			    <ul>
+			      <li class="tab5"><label for="tab5">Mandelbaum</label></li>
+			      <li class="tab6"><label for="tab6">Longfellow</label></li>
+			    </ul>
+			  </nav>
+			  
+			  <section>
+			    <div class="tab5">
+			      	
+		<div class="translation-entry">
+			<p>When I had journeyed half of our life&#8217;s way,<br />
+I found myself within a shadowed forest,<br />
+for I had lost the path that does not stray.</p>
+<p>Ah, it is hard to speak of what it was,<br />
+that savage forest, dense and difficult,<br />
+which even in recall renews my fear:</p>
+<p>so bitter — death is hardly more severe!<br />
+But to retell the good discovered there,<br />
+I&#8217;ll also tell the other things I saw.</p>
+<p>I cannot clearly say how I had entered<br />
+the wood; I was so full of sleep just at<br />
+the point where I abandoned the true path.</p>
+<p>But when I&#8217;d reached the bottom of a hill —<br />
+it rose along the boundary of the valley<br />
+that had harassed my heart with so much fear —</p>
+<p>I looked on high and saw its shoulders clothed<br />
+already by the rays of that same planet<br />
+which serves to lead men straight along all roads.</p>
+<p>At this my fear was somewhat quieted;<br />
+for through the night of sorrow I had spent,<br />
+the lake within my heart felt terror present.</p>
+<p>And just as he who, with exhausted breath,<br />
+having escaped from sea to shore, turns back<br />
+to watch the dangerous waters he has quit,</p>
+<p>so did my spirit, still a fugitive,<br />
+turn back to look intently at the pass<br />
+that never has let any man survive.</p>
+<p>I let my tired body rest awhile.<br />
+Moving again, I tried the lonely slope —<br />
+my firm foot always was the one below.</p>
+<p>And almost where the hillside starts to rise —<br />
+look there! — a leopard, very quick and lithe,<br />
+a leopard covered with a spotted hide.</p>
+<p>He did not disappear from sight, but stayed;<br />
+indeed, he so impeded my ascent<br />
+that I had often to turn back again.</p>
+<p>The time was the beginning of the morning;<br />
+the sun was rising now in fellowship<br />
+with the same stars that had escorted it</p>
+<p>when Divine Love first moved those things of beauty;<br />
+so that the hour and the gentle season<br />
+gave me good cause for hopefulness on seeing</p>
+<p>that beast before me with his speckled skin;<br />
+but hope was hardly able to prevent<br />
+the fear I felt when I beheld a lion.</p>
+<p>His head held high and ravenous with hunger —<br />
+even the air around him seemed to shudder —<br />
+this lion seemed to make his way against me.</p>
+<p>And then a she-wolf showed herself; she seemed<br />
+to carry every craving in her leanness;<br />
+she had already brought despair to many.</p>
+<p>The very sight of her so weighted me<br />
+with fearfulness that I abandoned hope<br />
+of ever climbing up that mountain slope.</p>
+<p>Even as he who glories while he gains<br />
+will, when the time has come to tally loss,<br />
+lament with every thought and turn despondent,</p>
+<p>so was I when I faced that restless beast<br />
+which, even as she stalked me, step by step<br />
+had thrust me back to where the sun is speechless.</p>
+<p>While I retreated down to lower ground,<br />
+before my eyes there suddenly appeared<br />
+one who seemed faint because of the long silence.</p>
+<p>When I saw him in that vast wilderness,<br />
+&#8220;Have pity on me,&#8221; were the words I cried,<br />
+&#8220;whatever you may be — a shade, a man.&#8221;</p>
+<p>He answered me: &#8220;Not man; I once was man.<br />
+Both of my parents came from Lombardy,<br />
+and both claimed Mantua as native city.</p>
+<p>And I was born, though late, sub Julio,<br />
+and lived in Rome under the good Augustus —<br />
+the season of the false and lying gods.</p>
+<p>I was a poet, and I sang the righteous<br />
+son of Anchises who had come from Troy<br />
+when flames destroyed the pride of Ilium.</p>
+<p>But why do you return to wretchedness?<br />
+Why not climb up the mountain of delight,<br />
+the origin and cause of every joy?&#8221;</p>
+<p>&#8220;And are you then that Virgil, you the fountain<br />
+that freely pours so rich a stream of speech?&#8221;<br />
+I answered him with shame upon my brow.</p>
+<p>&#8220;O light and honor of all other poets,<br />
+may my long study and the intense love<br />
+that made me search your volume serve me now.</p>
+<p>You are my master and my author, you —<br />
+the only one from whom my writing drew<br />
+the noble style for which I have been honored.</p>
+<p>You see the beast that made me turn aside;<br />
+help me, o famous sage, to stand against her,<br />
+for she has made my blood and pulses shudder,&#8221;</p>
+<p>&#8220;It is another path that you must take,&#8221;<br />
+he answered when he saw my tearfulness,<br />
+&#8220;if you would leave this savage wilderness;</p>
+<p>the beast that is the cause of your outcry<br />
+allows no man to pass along her track,<br />
+but blocks him even to the point of death;</p>
+<p>her nature is so squalid, so malicious<br />
+that she can never sate her greedy will;<br />
+when she has fed, she&#8217;s hungrier than ever.</p>
+<p>She mates with many living souls and shall<br />
+yet mate with many more, until the Greyhound<br />
+arrives, inflicting painful death on her.</p>
+<p>That Hound will never feed on land or pewter,<br />
+but find his fare in wisdom, love, and virtue;<br />
+his place of birth shall be between two felts.</p>
+<p>He will restore low-lying Italy for which<br />
+the maid Camilla died of wounds,<br />
+and Nisus, Turnus, and Euryalus.</p>
+<p>And he will hunt that beast through every city<br />
+until he thrusts her back again to Hell,<br />
+for which she was first sent above by envy.</p>
+<p>Therefore, I think and judge it best for you<br />
+to follow me, and I shall guide you, taking<br />
+you from this place through an eternal place,</p>
+<p>where you shall hear the howls of desperation<br />
+and see the ancient spirits in their pain,<br />
+as each of them laments his second death;</p>
+<p>and you shall see those souls who are content<br />
+within the fire, for they hope to reach —<br />
+whenever that may be — the blessed people.</p>
+<p>If you would then ascend as high as these,<br />
+a soul more worthy than I am will guide you;<br />
+I&#8217;ll leave you in her care when I depart,</p>
+<p>because that Emperor who reigns above,<br />
+since I have been rebellious to His law,<br />
+will not allow me entry to His city.</p>
+<p>He governs everywhere, but rules from there;<br />
+there is His city, His high capital:<br />
+o happy those He chooses to be there!&#8221;</p>
+<p>And I replied: &#8220;O poet — by that God<br />
+whom you had never come to know — I beg you,<br />
+that I may flee this evil and worse evils,</p>
+<p>to lead me to the place of which you spoke,<br />
+that I may see the gateway of Saint Peter<br />
+and those whom you describe as sorrowful.&#8221;</p>
+<p>Then he set out, and I moved on behind him.</p>
+		</div>
+		
+		
+			    </div>
+			    <div class="tab6">
+			      	
+		<div class="translation-entry">
+			<p>MIDWAY upon the journey of our life<br />
+I found myself within a forest dark,<br />
+For the straightforward pathway had been lost.</p>
+<p>Ah me! how hard a thing it is to say<br />
+What was this forest savage, rough, and stern,<br />
+Which in the very thought renews the fear.</p>
+<p>So bitter is it, death is little more;<br />
+But of the good to treat, which there I found,<br />
+Speak will I of the other things I saw there.</p>
+<p>I cannot well repeat how there I entered,<br />
+So full was I of slumber at the moment<br />
+In which I had abandoned the true way.</p>
+<p>But after I had reached a mountain&#8217;s foot,<br />
+At that point where the valley terminated,<br />
+Which had with consternation pierced my heart,</p>
+<p>Upward I looked, and I beheld its shoulders<br />
+Vested already with that planet&#8217;s rays<br />
+Which leadeth others right by every road.</p>
+<p>Then was the fear a little quieted<br />
+That in my heart&#8217;s lake had endured throughout<br />
+The night, which I had passed so piteously</p>
+<p>And even as he, who, with distressful breath,<br />
+Forth issued from the sea upon the shore,<br />
+Turns to the water perilous and gazes;</p>
+<p>So did my soul, that still was fleeing onward,<br />
+Turn itself back to re-behold the pass<br />
+Which never yet a living person left.</p>
+<p>After my weary body I had rested,<br />
+The way resumed I on the desert slope,<br />
+So that the firm foot ever was the lower.</p>
+<p>And lo! almost where the ascent began,<br />
+A panther light and swift exceedingly,<br />
+Which with a spotted skin was covered o&#8217;er!</p>
+<p>And never moved she from before my face,<br />
+Nay, rather did impede so much my way,<br />
+That many times I to return had turned.</p>
+<p>The time was the beginning of the morning,<br />
+And up the sun was mounting with those stars<br />
+That with him were, what time the Love Divine</p>
+<p>At first in motion set those beauteous things;<br />
+So were to me occasion of good hope,<br />
+The variegated skin of that wild beast,</p>
+<p>The hour of time, and the delicious season;<br />
+But not so much, that did not give me fear<br />
+A lion&#8217;s aspect which appeared to me.</p>
+<p>He seemed as if against me he were coming<br />
+With head uplifted, and with ravenous hunger,<br />
+So that it seemed the air was afraid of him;</p>
+<p>And a she-wolf, that with all hungerings<br />
+Seemed to be laden in her meagreness,<br />
+And many folk has caused to live forlorn!</p>
+<p>She brought upon me so much heaviness,<br />
+With the affright that from her aspect came,<br />
+That I the hope relinquished of the height.</p>
+<p>And as he is who willingly acquires,<br />
+And the time comes that causes him to lose,<br />
+Who weeps in all his thoughts and is despondent,</p>
+<p>E&#8217;en such made me that beast withouten peace,<br />
+Which, coming on against me by degrees<br />
+Thrust me back thither where the sun is silent</p>
+<p>While I was rushing downward to the lowland,<br />
+Before mine eyes did one present himself,<br />
+Who seemed from long-continued silence hoarse.</p>
+<p>When I beheld him in the desert vast,<br />
+&#8220;Have pity on me,&#8221; unto him I cried,<br />
+&#8220;Whiche&#8217;er thou art, or shade or real man!&#8221;</p>
+<p>He answered me: &#8220;Not man; man once I was,<br />
+And both my parents were of Lombardy,<br />
+And Mantuans by country both of them.</p>
+<p><em>Sub Julio</em> was I born, though it was late,<br />
+And lived at Rome under the good Augustus,<br />
+During the time of false and Iying gods.</p>
+<p>A poet was I, and I sang that just<br />
+Son of Anchises, who came forth from Troy,<br />
+After that Ilion the superb was burned</p>
+<p>But thou, why goest thou back to such annoyance?<br />
+Why climb&#8217;st thou not the Mount Delectable<br />
+Which is the source and cause of every joy?&#8221;</p>
+<p>Now, art thou that Virgilius and that fountain<br />
+Which spreads abroad so wide a river of speech?&#8221;<br />
+I made response to him with bashful forehead.</p>
+<p>&#8220;O, of the other poets honour and light,<br />
+Avail me the long study and great love<br />
+That have impelled me to explore thy volume!</p>
+<p>Thou art my master, and my author thou,<br />
+Thou art alone the one from whom I took<br />
+The beautiful style that has done honour to me.</p>
+<p>Behold the beast, for which I have turned back;<br />
+Do thou protect me from her, famous Sage,<br />
+For she doth make my veins and pulses tremble.&#8221;</p>
+<p>&#8220;Thee it behoves to take another road,&#8221;<br />
+Responded he, when he beheld me weeping,<br />
+&#8220;If from this savage place thou wouldst escape;</p>
+<p>Because this beast, at which thou criest out,<br />
+Suffers not any one to pass her way,<br />
+But so doth harass him, that she destroys him;</p>
+<p>And has a nature so malign and ruthless,<br />
+That never doth she glut her greedy will,<br />
+And after food is hungrier than before.</p>
+<p>Many the animals with whom she weds,<br />
+And more they shall be still, until the Greyhound<br />
+Comes, who shall make her perish in her pain.</p>
+<p>He shall not feed on either earth or pelf,<br />
+But upon wisdom, and on love and virtue;<br />
+&#8216;Twixt Feltro and Feltro shall his nation be;</p>
+<p>Of that low Italy shall he be the saviour,<br />
+On whose account the maid Camilla died,<br />
+Euryalus, Turnus, Nisus, of their wounds;</p>
+<p>Through every city shall he hunt her down,<br />
+Until he shall have driven her back to Hell,<br />
+There from whence envy first did let her loose.</p>
+<p>Therefore I think and judge it for thy best<br />
+Thou follow me, and I will be thy guide,<br />
+And lead thee hence through the eternal place,</p>
+<p>Where thou shalt hear the desperate lamentations,<br />
+Shalt see the ancient spirits disconsolate,<br />
+Who cry out each one for the second death;</p>
+<p>And thou shalt see those who contented are<br />
+Within the fire, because they hope to come,<br />
+Whene&#8217;er it may be, to the blessed people;</p>
+<p>To whom, then, if thou wishest to ascend,<br />
+A soul shall be for that than I more worthy;<br />
+With her at my departure I will leave thee;</p>
+<p>Because that Emperor, who reigns above,<br />
+In that I was rebellious to his law,<br />
+Wills that through me none come into his city.</p>
+<p>He governs everywhere and there he reigns;<br />
+There is his city and his lofty throne;<br />
+O happy he whom thereto he elects!&#8221;</p>
+<p>And I to him: &#8220;Poet, I thee entreat,<br />
+By that same God whom thou didst never know,<br />
+So that I may escape this woe and worse,</p>
+<p>Thou wouldst conduct me there where thou hast said,<br />
+That I may see the portal of Saint Peter,<br />
+And those thou makest so disconsolate.&#8221;</p>
+<p>Then he moved on, and I behind him followed.</p>
+		</div>
+		
+		
+			    </div>
+			  </section>
+		  
+		</div>
+
+	</div><!-- closes translations tabs -->
+
+</div><!-- closes translations -->			</div>
+
+			<!-- gallery tab -->
+
+			<div class="tab-3">
+				<div class="popup-gallery">
+  				<div class="popup">
+    				<div id="attachment_937" class="wp-caption alignnone" style="width: auto"><a href="https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012.jpg"><img decoding="async" class="size-medium wp-image-937" src="https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012-216x300.jpg" alt="At the very beginning of the Commedia, Dante finds himself in middle age, in a dark wood, confronted by 3 beasts: a lion, a leopard and a she-wolf, he cannot evade. At last, Virgilio appears." width="216" height="300" srcset="https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012-216x300.jpg 216w, https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012-738x1024.jpg 738w, https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012-768x1066.jpg 768w, https://digitaldante.columbia.edu/wp-content/uploads/2014/09/1401630012.jpg 1081w" sizes="(max-width: 216px) 100vw, 216px" /></a><p class="wp-caption-text">At the very beginning of the Commedia, Dante finds himself in middle age, in a dark wood, confronted by 3 beasts: a lion, a leopard and a she-wolf, he cannot evade. At last, Virgilio appears.</p></div>
+    		  </div>
+    		</div>
+			</div>
+
+      
+        <!-- video tab -->
+
+        <div class="tab-4">
+          <div class="post-entry">
+
+            <!-- video -->
+
+            <h3>Related video</h3>
+
+            <div class="video-container">
+              <iframe title="Academic Commons media player" width="560" height="315" src="https://academiccommons.columbia.edu/doi/10.7916/d8-ksqw-vn21/embed" frameborder="0" allowfullscreen></iframe>            </div>
+            <div class="video-title">
+                          </div>
+
+                          <div class="video-container">
+                <iframe title="Academic Commons media player" width="560" height="315" src="https://academiccommons.columbia.edu/doi/10.7916/d8-yqda-dc87/embed" frameborder="0" allowfullscreen></iframe>              </div>
+              <div class="video-title">
+                              </div>
+            
+            
+            <strong><em>View all lecture videos on the <a href="https://digitaldante.columbia.edu/the-dante-course/">Dante Course</a> page</em></strong>.
+
+          </div>
+        </div>
+
+      
+      
+        <!-- audio tab -->
+
+        <div class="tab-5">
+          <div class="post-entry">
+
+            <!-- bausi recording -->
+
+            <h3>Reading by Francesco Bausi: Inferno 1</h3>
+            <div class="audio-menu">
+            	<div class="item">
+                <audio src="/wp-content/uploads/2018/08/bausi-readings-inferno-1.mp3" controls preload="metadata"></audio>
+              </div>
+            </div>
+            For more readings by Francesco Bausi, see the <a href="https://digitaldante.columbia.edu/bausi-readings/">Bausi Readings page</a>.
+
+          </div>
+        </div>
+
+      
+		</section>
+
+	</div><!-- closes main-tabs -->
+
+</div><!-- closes main-content -->
+  </main>
+
+
+<div class="scroll-to-top">
+	<img src="https://digitaldante.columbia.edu/wp-content/themes/dante-core/assets/graphics/arrow-up.png" alt="return to top"> Return to top
+</div>
+<footer class="bottom-nav">
+	<div class="container">
+		<a class="site-title" href="https://digitaldante.columbia.edu/">
+			<h2>Digital Dante</h2>
+		  <svg xmlns="https://www.w3.org/2000/svg" width="407" height="183" viewBox="0 0 406.6 183.4"><title>Digital Dante</title><path d="M1.6 36.9c0-1.1 1.8-3.1 5.4-6.2 2.2-1.8 4.6-3.7 7-5.6 1.1-1 2.3-2.1 3.7-3.3 1.4-1.2 2.6-1.9 3.8-1.9.3 0 .7.1 1 .3 2.8.8 5.6 1.5 8.5 2.3 2.9.8 5.6 1.2 8.2 1.2h.7l25.3-3.8c5.3-.8 8.9-1.1 10.7-1.1 8.4 0 14.8 2.1 19.3 6.2 3.4 3.1 5.5 5.1 6.4 6 2.1 2.6 3.2 5.1 3.2 7.7 0 .5.1 1 .3 1.4l-.2 66.6c0 1.4 2.1 3.3 6.4 5.7l.3.8c.1.4-.1.8-.7 1.1-8.1 4.3-20.2 11-36 20.1-4.1 3.2-10.7 7.6-19.7 13h-.7l-.9-.3c-7-11.7-15.8-17.5-26.3-17.5-4 0-6.8.4-8.4 1.3-2.4 1.4-3.7 3.8-3.7 7.3 0 4.1 2.6 6.2 7.7 6.2 1.8 0 2.8-.4 3.1-1.1-2.7-.9-4-2.8-4-5.7 0-2.9 1.6-4.3 4.7-4.3 1.3 0 2.4.6 3.4 1.8 1 1.2 1.5 2.5 1.5 3.8 0 2.3-.9 4.4-2.6 6.3s-3.8 2.8-6.2 2.8c-7.3 0-10.9-4.4-10.9-13.2 0-3.7 2.3-7.6 6.9-11.6 4.3-3.7 8.2-5.5 11.7-5.5h.8l.5-.5c.3-2.3.5-8 .5-16.9V58.9c0-2.2-2.4-3.3-7.2-3.3l-.9-1.2c.1-.3 4.7-2.2 13.7-5.7 3.8-1.6 7.1-4.2 10-8l-.5-.3c-1.4 0-3.5.1-6.3.3-2.8.2-4.9.3-6.3.3-3.9 0-7.8-.5-11.7-1.6-1-.2-3.3-1.2-7-2.9-2.9-1.4-5.3-2-7.3-2-1.1 0-3 1.2-5.9 3.5h-.4c-.5 0-.8-.4-.9-1.1zm5.6 56.2c7.3-4.7 11-8.8 11-12.3-.7-.8-1.6-1.8-2.9-3.2L8 72.1c.1-.2 2.3-1.9 6.5-5 3.9-2.9 5.9-6.3 5.9-10.4 0-5.2-1.4-7.9-4.3-7.9-1.6 0-2.4.4-2.4 1.2 0 .2.2.7.7 1.4.5.7.7 1.5.7 2.3 0 2.3-1.3 3.5-3.8 3.5-1 0-1.8-.5-2.6-1.6-.7-1.1-1.1-2.2-1.1-3.3 0-2 1.1-3.6 3.2-4.6 1.9-1.1 3.9-1.6 6-1.6 1.6 0 3.1 1.2 4.5 3.7 1.4 2.4 2.2 4.5 2.2 6.1 0 1-.3 2.4-.9 4.4-.6 1.9-.9 3.3-.9 4.2 0 2.2 1.6 4.3 4.9 6.2 3.3 1.9 4.9 2.9 4.9 3.1 0-.1-1.9 1.2-5.7 3.8-3.8 2.7-5.7 5.2-5.7 7.7l.8 1.5c2 3.1 4.7 5.4 8 6.8 1.7.7 2.5 1.2 2.5 1.7s-1.4 1.5-4.2 2.9c-3.4 1.8-6 3.5-7.7 5.1-2.8 2.9-4.2 6.4-4.2 10.7 0 1.4 1.5 2 4.4 2 .7 0 1-.2 1-.5s-.1-.8-.3-1.4c-.2-.6-.3-1.1-.3-1.4 0-2.2 1.2-3.3 3.7-3.3 2.6 0 3.8 1.2 3.8 3.7 0 1.6-.7 3-2.2 4.2-1.4 1.2-2.9 1.8-4.5 1.8-5.4 0-8.1-3.2-8.1-9.7 0-.8.4-1.9 1.1-3.3.7-1.5 1.1-2.6 1.1-3.3 0-2.6-1.3-4.7-3.8-6.5-2.8-2.1-4-3.1-4-3.2zm29.1 23.6l2.2.5c5.8 2.1 11.7 4.2 17.7 6.4.7 0 1-.4 1-1.1v-4.6c0-1.1-.1-2.8-.2-5.2-.2-2.4-.2-4.2-.2-5.3l-.5-.3c-1 0-4.2 1.2-9.5 3.5-5.9 2.5-9.4 4.6-10.5 6.1zm14.5-51c0 23.4.1 35.4.3 36.1.5 1.6 2.4 2.4 5.6 2.4.2-.5.2-6.2.2-17.1 0-10.9-.1-26.9-.2-48.1h-1.3c-2.9 0-4.3.3-4.3.8-.2 10.9-.3 19.5-.3 25.9zm9.1 59.4c0 .9.9 1.3 2.7 1.4h.5c.4-1 .7-20.9.7-59.9V39.7c0-1.4-.5-2-1.5-2-1.6 0-2.4.6-2.4 1.7v85.7zm6.4 2.6c0 1.1 1.7 1.7 5.2 1.7 3.9 0 7.4-1.2 10.4-3.5s4.5-5.4 4.5-9.2v-73c-2.6-5.1-6.5-7.7-11.9-7.7-4.8 0-7.5.4-8.1 1.3v3.5c0 2.8.1 4.4.3 4.9h.3c2.7-1.7 5.1-2.5 7.2-2.5s4 .7 5.5 2.2c1.6 1.4 2.4 3.2 2.4 5.2 0 4.5-2 6.7-5.9 6.7-2.9 0-4.3-1.1-4.3-3.3 0-2.6.9-3.8 2.6-3.8 1.9 0 2.7 1.1 2.5 3.3h.3c1.5 0 2.2-1.2 2.2-3.7 0-2.7-1.7-4-5.1-4-2.2 0-4.1 1.1-5.7 3.4-1.6 2.3-2.4 4.6-2.4 7.1v26.5c0 1.6.1 4.1.3 7.5l.3.2c3-1.8 5.9-4.5 8.9-8.1 3.4-4.1 5.1-7.7 5.1-10.7 0-4.5-1.5-6.7-4.6-6.7-.8 0-1.6.4-2.4 1.2-.8.8-1.3 1.6-1.3 2.3l.3.3c2.9.2 4.3 1.3 4.3 3.2 0 2.4-1.2 3.7-3.5 3.7-1.2 0-2.3-.6-3.3-1.8-.9-1.2-1.4-2.3-1.4-3.5 0-5.4 2.2-8.2 6.7-8.2 5.2 0 7.8 3.3 7.8 9.9 0 4.1-1.5 8-4.5 11.7-3.2 3.1-6.4 6.2-9.5 9.4l.3.3c8.3.4 12.4 4.5 12.4 12.2 0 6.1-2.3 9.1-6.8 9.1h-.1c-3.9 0-5.9-2.2-5.9-6.5 0-3.1 1.2-4.6 3.5-4.6 2.2 0 3.3 1.1 3.3 3.2 0 1.7-1.1 2.6-3.3 2.9v.3c0 .9.6 1.3 1.9 1.3 3.2 0 4.8-2.2 4.8-6.7 0-5.6-4.1-8.5-12.4-8.5-.8.4-1.1.8-1.1 1.1v30.4zm2.2 16.5c0-.3.5-1 1.6-2.2 1.1-1.1 1.8-1.8 2.1-2l34.9-17.8c.4-.2.9-.4 1.3-.4 1.1 0 1.7.5 1.7 1.4 0 .9-.9 1.7-2.6 2.6-1.7.8-2.7 1.4-2.9 1.6 4.5 2.2 6.7 5.1 6.7 8.5 0 2.8-.8 5.1-2.5 7-1.7 1.9-3.9 2.9-6.7 2.9-1.9 0-3.7-.6-5.3-1.8-1.7-1.2-2.5-2.7-2.5-4.5 0-1.4.5-2.5 1.4-3.4 1-.9 2-1.4 3.2-1.4 2.3 0 3.5 1.3 3.5 4 0 .9-.4 2-1.3 3.3.1.2.3.3.7.3 4.1 0 6.2-2.4 6.2-7.3 0-3.6-2.2-5.5-6.5-5.5h-.2c-1 0-4.4 1.3-10.2 4-.7.5-1.5 1.5-2.7 2.9-.4 1.3-.9 2.4-1.3 3.5-.7 1.7-1.3 2.5-1.9 2.4-.2 0-.8-.2-1.6-.7-.9-.4-1.8-.7-2.9-.7-2.4 0-4.8.7-6.9 2.2-2.2 1.4-3.5 2.2-3.9 2.2-1-.1-1.4-.4-1.4-1.1zM114.9 100.9l.9-1.5h1.3c1.1 0 2.8.2 5.2.5 2.4.3 4.1.5 5.2.5 4.5 0 10.3-1.6 17.4-4.8 3.8-1.7 7.7-3.9 11.7-6.7 5.7-3.8 8.5-6.8 8.6-9-3.4-3.4-7.7-6.3-12.9-8.6s-10.2-3.4-15-3.4c-1.6 0-2.8.3-3.7.8-1 1.6-1.5 3.4-1.6 5.4 0 4.3 1.8 6.5 5.3 6.5.9 0 2.2-.3 3.9-.9 1.8-.6 3.1-.9 3.9-.9.9 0 1.3.4 1.4 1.1 0 .7-2.4 2.2-7.1 4.6-1.6 1.9-3.2 3.7-4.7 5.5-2.7 3-4.5 4.5-5.4 4.6-.8 0-1.3-.3-1.6-.9v-.8c0-1.4-1.2-3-3.7-5-2.4-2-3.7-4.6-3.7-7.9 0-4.5 2.7-8.7 8-12.6l16-12.1c.1-.1 1.1-1.2 3-3.3 1.2-1.3 2.4-2 3.5-2h.2l25.3 14c.4.2 3.9 1.3 10.5 3.2.8.2 1.1.7 1.1 1.5 0 1.1-.9 2.2-2.6 3.4-1.8 1.2-2.6 2.1-2.6 2.6v18c0 21.1.2 32.9.5 35.4.2 1.4 1.6 2.1 4.2 2.2l-1-.1c0-.1 2.1-.1 6.4-.1 1.2 0 1.8.4 1.8 1.1 0 .4-.1.7-.3.9-4.3 3.7-7 5.9-7.8 6.6-2.7 2.5-5 5.1-7 7.6-.8 1.3-2.1 3.2-4 5.7-1-1.8-2.4-3.9-4.2-6.5-5.7-7-10.8-10.6-15.4-10.6-3.8 0-7.5 1.3-10.9 3.8-3.5 2.5-6 5.6-7.4 9.1-.3 1-.6 2-.8 3-.4 1.3-1 1.9-1.7 1.9h-.1c-.3 0-.8-.2-1.3-.5-2.4-4.6-4.7-7.9-6.8-9.8-1.6-1.5-3.8-3.3-6.8-5.6-.9-.2-1.7-.5-2.6-.9-.9-.4-1.3-1-1.3-1.8 0-.7.3-1.2.9-1.6.6-.4 1.2-.7 1.9-.9 2.7-1.8 4.5-4.2 5.2-7.2.3-1.7.5-4.7.5-9.2 0-4.3-1.5-8-4.6-11.1-2-.9-3.6-2-5.2-3.2zm27.1 23.8c1.2 2.6 2.3 4.1 3.3 4.8.9.6 2.7.9 5.2.9 2.8 0 5.8-.7 9.1-2.2 4.1-1.9 6.2-4 6.2-6.4v-6.3c0-3.4-.1-8-.2-13.9-.1-7-.2-11.6-.2-13.9l-.5-.3c-4.9 3.1-9.8 6.2-14.8 9.3-5.5 3.8-8.2 8.2-8.2 13v15zM197 70.9c0-.4.1-.8.4-1.1 15.3-13.6 23.2-20.3 23.7-20.3h1.8c3 3.3 5.9 6.7 8.9 10.1 4.4 4.9 7.8 7.4 10.2 7.4 4.1 0 9.6-2.8 16.3-8.5 1.3-1.8 3.4-4.4 6.1-7.7.5-.7 1.1-1 1.8-1 .5.2 1.3 1.2 2.3 2.9 1.3 2 2.1 3.2 2.2 3.4 2.6 3.1 5.4 5.7 8.3 7.6 1 .4 2 1 3.1 1.6 1.1.6 1.7 1.5 1.7 2.6l-.5.8c-4 2.3-6.5 4.4-7.5 6.2-1 1.8-1.5 5.2-1.5 10.1 0 4.9.1 11.9.2 21 .1 10.3.2 17.3.2 21 0 2.7 2.1 4 6.4 4 3.1-2.1 5-3.2 5.5-3.2.9 0 1.3.6 1.3 1.7 0 .8-.1 1.3-.3 1.5l-9 8.3c-1.8 1.3-4.3 3.5-7.6 6.7-.6 1.1-1.9 2.6-3.6 4.6h-.7c-1.1 0-2-.5-2.8-1.4-.8-1-1.5-1.9-2.1-2.8-3.8-4.3-8-8.3-12.8-11.8-.2-.2-.3-.5-.3-1s1.4-1.9 4.3-4.4c2.9-2.5 4.3-5.6 4.3-9.1 0-22.1-.1-34.8-.3-38.2-.1-2.2-2.2-4.6-6.3-7.3-4.1-2.6-7.3-3.9-9.7-3.9-1.2 0-3.2.7-5.8 2.2-2.7 1.4-4 2.7-4.1 3.7-.1 1-.2 6.1-.2 15.2v32c0 1.6 1.6 3.2 4.7 4.9 3.1 1.7 4.7 3.1 4.7 4.1 0 .2-.2.5-.6.8-1.5.9-3.9 2.6-7 5.3l-6.8 8.7c-.4.5-1 1.3-1.5 2.2s-1.1 1.5-1.7 1.6c-.4-.1-1.8-1.3-4-3.5s-3.4-3.6-3.5-4c-2.1-1.7-5.4-4.2-9.8-7.7-.5-.4-.8-1-.9-1.7 0-.4 1.4-2.3 4.2-5.7 2.8-3.3 4.4-6.6 4.8-9.8.2-1.7.3-6.7.3-15.1 0-13.9-.1-24.3-.3-31.4-.1-3.1-1.2-4.6-3.3-4.6-3.6 0-7.1 1.6-10.7 4.8h-.3c-1.6 0-2.2-.6-2.2-1.8zM290.9 67.4v-.2c0-1.5.5-2.5 1.4-3L317 49.3c3.8-2.2 7.1-5.2 9.9-8.8 3.2-4.2 4.8-8.1 4.8-11.9 0-4.5-1.9-6.7-5.7-6.7 0 .7.2 1.5.7 2.6.5 1.1.7 2 .7 2.6 0 1.7-.7 3.1-2.2 4.3-1.4 1.2-3 1.8-4.7 1.8-1.8 0-3.2-.9-4.3-2.7-.9-1.5-1.3-3.1-1.4-5 0-4.5 3.4-6.7 10.3-6.7 1 .1 2.2.4 3.8.8 1.4.8 2.7 2.1 4 4.2 1.3 2 2 3.7 2 5.2 0 4.4-.3 7.2-.8 8.4-1.1 2.5-4.2 6.2-9.4 11.1-3.8 3.7-5.7 8-5.7 12.9 0 .9.6 1.4 1.8 1.4 7 0 11.6-.8 14-2.5v-1.8c-.1-2.7.6-4.1 2.1-4.1.6 0 1 .2 1 .5v14.3c0 17.3-.1 26.7-.3 28.2-.1.8-.5 1.2-1.1 1.2-.9 0-1.4-1-1.7-3-.1-.8-.2-1.7-.2-2.7 0-1 .1-2.2.2-3.6.1-3.4.2-5 .2-4.5 0-.9-1.3-4.8-4-11.8-1.7-4.2-5-6.3-10-6.3h-.2l-1.7.2-.4.2-.2 55.7c0 1.4 1.4 3 4.2 4.9 2.8 1.9 4.9 2.9 6.3 2.9l.9-.2c2.7-3.1 5.5-4.6 8.6-4.6.5.3.8.8.8 1.5 0 .5-3.6 4.5-10.7 11.8-3.6 3.7-7.2 7.4-10.9 11.2l-.8.3c-.3 0-.6-.3-.8-1-.2-.7-.4-1.1-.5-1.2-2.3-2.2-5.9-5.4-10.8-9.4-3.2-2.2-6.9-4.2-11-5.8-.9-.4-1.3-.9-1.3-1.5 0-.5 1.4-2 4.2-4.3s4.2-4.2 4.2-5.5v-54l-.3-.2h-4.3c-1.9.1-3.3.2-4.2.2h-1l-.2-.5zM342.6 130.7c0-.4.2-.8.6-1.1 5-1.6 8.3-4.8 10.1-9.7v-18.3c0-2.1-.1-5.3-.2-9.6s-.2-7.5-.2-9.6c0-3.3-.7-5.4-2.1-6.2l-4.3-2.1h-.9c-.5.1-1.1 0-1.6-.3s-.8-.7-.8-1.3l.7-1c5.6-1.1 16.4-6.1 32.3-15.2.1 0 1.8-1.3 5.2-3.9 2.6-1.8 4.3-2.8 5.2-2.8h.1c.9 0 1.7.7 2.4 2l15.3 32.8c.4.3.7.9.7 1.6 0 .1-.1.3-.2.5-.4.5-1 1.1-1.6 1.7l-22 13.5c-2.7 1.3-6.3 3.6-10.9 7 0 2.4.1 3.8.2 4.2l-.2.2v9c0 .9 2.5 2.9 7.5 6 5 3.2 8.2 4.7 9.5 4.7 1.1 0 3.4-1.6 6.9-4.7 3.5-3.1 5.8-4.7 6.9-4.7 1.3 0 1.9.5 1.9 1.5 0 .5-.2 1-.7 1.4-6 5-14.9 12.9-26.6 23.6-.7.2-1 .4-1.1.4-.5 0-1.5-.6-2.9-1.9-.9-.8-1.8-1.5-2.7-2.4l-10.4-7.3c-.7-.4-3.7-1.8-9.2-4-4.5-1.9-6.9-3.3-6.9-4zm26.6-64.1c0 17.6.4 29.7 1.1 36.3h.6c3.3-1.8 6.6-3.6 9.8-5.4 5.2-3 7.9-5 7.9-6.1L375.7 63c-.2-.4-.7-.7-1.3-.7-3.5.1-5.2 1.6-5.2 4.3zM150.1 25.1c0 3.9-1.3 7.1-4 9.5-2.6 2.4-6.2 3.6-10.7 3.6-.6 0-1.7 0-3.4-.1-1.8-.1-2.9-.1-3.5-.1-2.4 0-4.7.1-6.9.2-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.1-.1 1.9-.3 2.4-.5.6-.2 1-.5 1.2-.9.2-.4.3-1 .3-1.9v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9s-1.4-.4-2.5-.5c-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5 1.5.1 3.8.2 6.9.2.6 0 1.8 0 3.5-.1 1.7 0 2.9-.1 3.4-.1 4.4 0 7.9 1.3 10.6 3.8 2.9 2.5 4.2 5.8 4.2 9.7zm-4.2 0c0-3.5-1-6.4-3-8.7-2-2.3-4.5-3.5-7.5-3.5h-.1l-3.6.1c-1.5.1-2.3.8-2.3 2.2v19.5c0 1.5.8 2.2 2.3 2.2l3.6.1c3 0 5.5-1.1 7.5-3.4s3.1-5.1 3.1-8.5zM166.6 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.9-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9V34c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.3-.1.4.1.4.4zM199.9 26.5c0 .3-.1.5-.3.5-1.5.2-2.6.5-3.1.9-.6.4-.8 1.2-.8 2.4v2.3c0 2 .1 3.3.4 4.1-1.7.7-3.5 1.2-5.5 1.7-2 .4-3.7.6-5.2.6-2.9 0-5.5-.6-7.7-1.7-2.2-1.2-3.9-2.8-5.1-4.9-1.2-2.1-1.8-4.5-1.8-7.1 0-2.6.7-5 2-7.2s3.2-3.9 5.5-5.1c2.3-1.2 5-1.8 8-1.8 1.2 0 2.7.2 4.6.6 1.7.4 3 .5 3.9.5.2 1.8.5 4 .9 6.5 0 .2-.2.3-.6.3-.3 0-.4-.1-.5-.3-1.1-4.3-4.1-6.4-9-6.4-3 0-5.5 1.2-7.6 3.7-2 2.5-3.1 5.5-3.1 9.1 0 3.5 1 6.5 3 8.9 2 2.5 4.5 3.7 7.4 3.7 4.3 0 6.4-1.1 6.4-3.2v-5.1c0-.7-.3-1.2-1-1.5s-2.3-.6-4.9-.8c-.2 0-.3-.2-.3-.6 0-.4.1-.5.3-.5.9 0 2.1 0 3.8.1 1.6.1 2.8.1 3.6.1.8 0 1.8 0 3.1-.1 1.4-.1 2.5-.1 3.3-.1.2-.1.3 0 .3.4zM215 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.9-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4v-18c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9V34c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.3-.1.4.1.4.4zM244.6 17.9c0 .2-.2.4-.7.4-.2 0-.3-.1-.4-.3-.6-1.8-1.3-3.1-2.4-3.8s-2.5-1.1-4.5-1.1h-1.8c-.6 0-1.1.1-1.3.3s-.3.6-.3 1.2v19.5c0 .9.1 1.5.3 1.9.2.4.6.7 1.2.9.6.2 1.4.4 2.4.5.2 0 .3.2.3.5 0 .4-.1.5-.3.5-.9 0-1.9 0-3.1-.1-1.1-.1-2.1-.1-2.8-.1-.8 0-1.7 0-2.9.1s-2.2.1-3.1.1c-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9s.8-1.2.8-2.4V14.5c0-.6-.1-.9-.3-1.2s-.7-.3-1.3-.3h-1.5c-1.8 0-3.4.5-4.9 1.4-1.5.9-2.4 2.1-2.9 3.6-.1.2-.2.3-.4.3-.4 0-.7-.1-.7-.4.7-1.9 1.4-4.1 2-6.6 1.7.4 5.7.5 11.9.5 6.4 0 10.5-.2 12.2-.5.3 1.6.7 3.8 1.3 6.6zM270.6 37.7c0 .4-.1.5-.3.5-.9 0-1.9 0-3-.1-1-.1-1.8-.1-2.5-.1-.8 0-1.7 0-2.9.1s-2.3.1-3.1.1c-.2 0-.3-.2-.3-.5 0-.4.1-.5.2-.5 1.1-.1 2-.2 2.5-.5.5-.2.8-.6.8-1.2 0-.3-.1-.9-.4-1.6l-2.2-6.4h-7.9l-2.2 6c-.3.8-.4 1.4-.4 1.9 0 1.1 1 1.8 3.1 1.9.2 0 .2.2.2.5 0 .4-.1.5-.3.5-.8 0-1.6 0-2.6-.1-.9-.1-1.7-.1-2.4-.1-.5 0-1.2 0-2.1.1-.9.1-1.6.1-2.2.1-.2 0-.3-.2-.3-.5 0-.4.1-.5.4-.6 1.1-.1 1.9-.4 2.5-.9.6-.5 1.3-1.5 1.9-3l9-22.1c.1-.2.3-.3.5-.3.3 0 .5.1.6.3l7.9 22.1c.4 1.2 1.1 2.2 1.8 2.7.8.6 1.8 1 3.1 1.1.5.1.6.3.6.6zM259 26.3l-3.4-9.8-3.6 9.8h7zM294.3 31.2c-.6 2.3-1.1 4.6-1.4 7.1-4.9-.2-8.4-.2-10.5-.2-2 0-5.5.1-10.3.2-.2 0-.3-.2-.3-.5s.1-.5.3-.5c1.5-.2 2.6-.5 3.2-.9.6-.4.8-1.2.8-2.4V15.9c0-.9-.1-1.5-.3-1.9-.2-.4-.6-.7-1.2-.9-.6-.2-1.4-.4-2.5-.5-.2 0-.3-.2-.3-.5 0-.4.1-.5.3-.5.9 0 1.9 0 3.1.1 1.1.1 2.1.1 2.9.1.8 0 1.7 0 2.9-.1s2.2-.1 3.1-.1c.2 0 .3.2.3.5 0 .4-.1.5-.3.5-1.1.1-1.9.3-2.5.5-.6.2-1 .5-1.2.9-.2.4-.3 1-.3 1.9v18.7c0 1.5.7 2.3 2.2 2.3h3.8c1.6 0 2.9-.4 4-1.3 1.1-.8 2.2-2.4 3.2-4.7.1-.1.2-.2.4-.2s.3.1.5.2c0 .1.1.2.1.3z"/></svg>
+		</a>
+		<nav class="footer-menu">
+			<ul>
+				<li><a href="https://digitaldante.columbia.edu/dante/divine-comedy/">Divine Comedy</a></li>
+				<li><a href="https://digitaldante.columbia.edu/the-dante-course/">Dante Course</a></li>
+				<li><a href="https://digitaldante.columbia.edu/digital-projects/intertexual-dante/">Intertextual Dante</a></li>
+				<li><a href="https://digitaldante.columbia.edu/image/">Image</a></li>
+				<li><a href="https://digitaldante.columbia.edu/sound/">Sound</a></li>
+				<li><a href="https://digitaldante.columbia.edu/history/">History</a></li>
+				<li><a href="https://digitaldante.columbia.edu/text/">Text</a></li>
+				<li><a href="https://digitaldante.columbia.edu/about-us/">About</a></li>
+        <li><a href="https://digitaldante.columbia.edu/terms/">Submit</a></li>
+				<li><a href="https://digitaldante.columbia.edu/search/"><svg class="search" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 100 125"><title>Search</title><path style="text-indent:0;text-transform:none;block-progression:tb" d="M41.002 8.002c-18.166 0-33 14.834-33 33s14.834 33 33 33c7.283 0 14.03-2.38 19.5-6.406l22.97 22.937c1.95 1.953 5.11 1.953 7.06 0 1.954-1.952 1.954-5.11 0-7.062L67.597 60.504c4.027-5.47 6.406-12.217 6.406-19.5 0-18.166-14.834-33-33-33zm0 10c12.762 0 23 10.24 23 23 0 12.762-10.238 23-23 23-12.76 0-23-10.238-23-23 0-12.76 10.24-23 23-23z" overflow="visible" color="#fff"/></svg>
+</a></li>
+			</ul>
+		</nav>
+	</div>
+</footer>
+<div class="site-info">
+	Published in partnership with <a href="http://library.columbia.edu">Columbia University Libraries</a>
+	<div>
+<script type="text/javascript" src="https://digitaldante.columbia.edu/wp-content/themes/dante-core/assets/js/production.min.js?ver=1.0.0" id="simple-expand-js"></script>
+
+<script type="text/javascript">
+
+	$('.expander').simpleexpand();
+
+	$('.popup').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: true,
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1]
+		},
+		zoom: {
+			enabled: true,
+			duration: 300,
+			easing: 'ease-in-out',
+		}
+	});
+	$('.popup-text').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: true
+	});
+
+	$("nav.sticky").stick_in_parent();
+
+</script>
+
+
+</body>
+</html>
